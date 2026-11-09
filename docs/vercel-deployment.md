@@ -8,10 +8,11 @@
 ## 현재 운영: 클릭 프로토타입 (2026.11.09)
 
 - 내용: `prototype/`의 빌드 결과(`npm run build` → `prototype/dist`)
-- 배포 ID: `dpl_8uHiUAJYjkpDJCo9h2MbCeBYynCS` (2026.11.09, macOS 레퍼런스 기반 디자인 변경 · `docs/design-references-macos-20261109`)
+- 배포 ID: `dpl_5z84X5K9QsEagMcjTgAbaEYCmjTX` (2026.11.09, 블랙·화이트·베이지 테마 선택 추가 · 커밋 `ac054db`)
 - 대상·상태: Production · Ready
-- 확인한 내용: 공개 주소가 새 JS·CSS 번들을 제공하고 CSS에 상태 점 토큰이 포함됨
+- 확인한 내용: 공개 주소가 새 JS·CSS 번들을 제공하고 CSS에 테마 정의가 포함됨
 - 이전 배포
+  - `dpl_8uHiUAJYjkpDJCo9h2MbCeBYynCS` (macOS 레퍼런스 기반 디자인 변경, 테마 선택 없음)
   - `dpl_2nwPAJ9vGjB14ZfLti4hDRjbckzU` (단과대학별 학과 선택 상자, 기존 디자인)
   - `dpl_2iWwnXEeThcxShZo15nPNjfzeLJF` (첫 프로토타입 배포, 학과 직접 입력 방식)
 
