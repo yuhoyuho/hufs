@@ -1,0 +1,422 @@
+[
+  {
+    "id": "01-perplexity",
+    "category": "AI search / evidence",
+    "requestedUrl": "https://www.perplexity.ai/",
+    "title": "Perplexity",
+    "url": "https://www.perplexity.ai/",
+    "headings": [
+      "무엇을 알고 싶으세요?\n무엇을 작업할까요?\n무엇을 알고 싶으세요?"
+    ],
+    "text": "신규\n⌃I\nComputer\n자동화\n아티팩트\n플러그인\n프로젝트\n프로젝트 없음\n최근 항목\n최근 세션 없음\n요금제 보기\n로그인\n무엇을 알고 싶으세요?\n무엇을 작업할까요?\n무엇을 알고 싶으세요?\n\n\n\n\n무엇이든 물어보세요…\n검색\nComputer\n모델\n무엇이든 검색하세요\n가장 신뢰할 수 있는 출처에서 빠르고 정확한 답변을 얻으세요.\nComputer로 업무를 완료하세요\n신규\n프로젝트를 맡기면 언제든지 완성도 높고 신뢰할 수 있는 결과물을 받아볼 수 있습니다.\nPerplexity AI, Inc.\nAravind Srinivas (CEO)\n2261 Market Street, Ste. 14441, San Francisco, CA 94114\n+1(510) 270-0840\nsupport@perplexity.ai\nAmazon Web Services에서 호스팅\n제공자, 계약 및 취소 정보\n서비스 약관\n개인정보 처리방침\n사업자 등록번호: 455-80-03418\n통신판매업 신고번호: 2026-공정-0023",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/01-perplexity.png",
+    "note": "중앙 질문 입력, 대화형 진입과 절제된 탐색 구조"
+  },
+  {
+    "id": "02-claude",
+    "category": "Conversational workspace",
+    "requestedUrl": "https://claude.ai/",
+    "title": "로그인 - Claude",
+    "url": "https://claude.ai/login",
+    "headings": [],
+    "text": "쿠키 설정\n\n당사는 서비스 제공 및 개선, 사이트 사용 분석을 위해 쿠키를 사용하며, 동의하시는 경우 맞춤형 서비스 제공 및 마케팅에도 활용합니다. 쿠키 정책은 여기에서 확인하실 수 있습니다.\n\n쿠키 설정 사용자 지정\n모든 쿠키 거부\n모든 쿠키 허용",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/02-claude.png",
+    "note": "로그인 공개 화면 확인. 캡처가 초기 로딩 상태라 최종 시각 근거에서는 제외"
+  },
+  {
+    "id": "03-gemini",
+    "category": "Conversational entry",
+    "requestedUrl": "https://gemini.google.com/",
+    "title": "Google Gemini",
+    "url": "https://gemini.google.com/app",
+    "headings": [
+      "안녕하세요. 저는 Gemini입니다. 무엇을 도와드릴까요?"
+    ],
+    "text": "새 채팅\n이미지\n활동을 저장하려면 로그인하세요.\n설정\n로그인\n앱 다운로드\n안녕하세요. 저는 Gemini입니다. 무엇을 도와드릴까요?\n\n\n\n\nGemini 정보\n구독\n비즈니스용\n앱 다운로드\n로그인",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/03-gemini.png",
+    "note": "짧은 환영 문구와 중앙 입력창으로 진입 행동 집중"
+  },
+  {
+    "id": "04-linear",
+    "category": "Dense navigation / hierarchy",
+    "requestedUrl": "https://linear.app/",
+    "title": "Linear – The system for product development",
+    "url": "https://linear.app/",
+    "headings": [
+      "The product development\nsystem for teams and agents\nThe product development system for teams and agents",
+      "A new species of product tool. Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products.",
+      "Intake\nand integrations",
+      "Planning\nand monitoring",
+      "AI and\nautomations",
+      "Build, review,\nand ship",
+      "Changelog",
+      "Built for the future. Available today."
+    ],
+    "text": "Skip to content →\nProduct\nResources\nCustomers\nPricing\nNow\nContact\nLog in\nSign up\nThe product development\nsystem for teams and agents\nThe product development system for teams and agents\n\nPurpose-built for planning and building products. Designed for the AI era.\n\nNew\nLoops →\nLinear\nPulse\nInbox\nMy issues\nReviews\nWorkspace\nInitiatives\nProjects\nMore\nFavorites\nFaster app launch\nAgent tasks\nAgent Insights\nUI Refresh\nDRV-8852\nFaster app launch\n1 / 84\nFaster app launch\n\nRender UI before vehicle_state sync when minimum required state is present, instead of blocking on full refresh during iOS startup.\n\nActivity\nLinear created the issue via Slack on behalf of Karri\n·\n2min ago\nTriage Intelligence added the labels Performance and iOS\n·\n2min ago\nkarri\n·\n4 min ago\nRight now we show a spinner forever, which makes it look like the car disappeared...\njori\n·\njust now\n@Linear can you take a stab at this?\nLinear\nconnected by Jori\n·\n2 min ago\nChanged 2 files\nDraft PR awaiting your review\n·\n2 min ago\nLinear moved from Todo to In Progress\n·\njust now\nReviews\nRevert\nProperties\nIn Progress\nMedium\nKarri\nLinear\nCycle 144\nLabels\nPerformance\niOS\nReleases\nLinear App\n1.6881...\n⋅\nJun 25\n\nPOWERING THE COMPANIES BUILDING THE FUTURE\n\nA new species of product tool. Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products.\nFIG 0.1\nPurpose-built\n\nLinear is shaped by the practices and principles of world-class product teams.\n\nFIG 0.2\nPowered by agents\n\nDesigned for workflows shared by humans and agents. From drafting PRDs to pushing PRs.\n\nFIG 0.3\nDesigned for speed\n\nReduces noise and restores momentum to help teams ship with high velocity and focus.\n\nIntake\nand integrations\n\nAutomatically turn conversations and customer feedback into actionable ",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/04-linear.png",
+    "note": "내비게이션·타이포 방향 탐색. 캡처의 본문이 초기 상태라 앱 UI의 세부 근거로는 사용하지 않음"
+  },
+  {
+    "id": "05-notion-calendar",
+    "category": "Time / contextual cards",
+    "requestedUrl": "https://www.notion.com/product/calendar",
+    "title": "Notion 캘린더",
+    "url": "https://www.notion.com/ko/product/calendar",
+    "headings": [
+      "완전히 새로운 캘린더",
+      "시간 관리, 더욱 쉽고 간편하게.",
+      "모든 일정을 한눈에 확인하기",
+      "일정 잡기 기능",
+      "다양한 시간대 설정",
+      "직관적인 디자인",
+      "12개 언어 지원",
+      "Notion 워크스페이스 연결로\n더 편리하게"
+    ],
+    "text": "제품\n리소스\n대기업\n가격\n영업팀 문의하기\n로그인\nNotion 캘린더 무료로 사용하기\nNotion 캘린더\n완전히 새로운 캘린더\n모든 일정을 한곳에서 관리하세요. 세련된 디자인에 완벽한 통합까지. 업무와 개인 일정을 한번에 관리할 수 있는 Notion 캘린더입니다.\nNotion 캘린더 무료 다운로드\nWindows용 다운로드하기\n재생\n시간 관리, 더욱 쉽고 간편하게.\n모든 일정을 한눈에 확인하기\n\n메뉴 모음에서 바로 회의에 참여할 수 있어 중요한 업무에 계속 집중할 수 있어요.\n\n일정 잡기 기능\n\n다른 사람들이 나와의 회의나 약속을 잡을 수 있도록 가능 시간과 일정 링크를 보내세요. 다른 앱은 필요 없어요. Notion에서 다 가능하거든요!\n\n다양한 시간대 설정\n\n다양한 시간대를 시각적으로 확인해 글로벌 팀과 효율적으로 협업하세요.\n\n직관적인 디자인\n\n효율적인 워크플로를 위해 명령어와 단축키를 사용하세요.\n\n12개 언어 지원\n\n현재 한국어, 영어, 일본어, 프랑스어, 독일어, 스페인어, 포르투갈어, 덴마크어, 네덜란드어, 핀란드어, 노르웨이어, 스웨덴어를 지원합니다. 지원 언어는 계속 늘어날 예정입니다.\n\nNotion 워크스페이스 연결로\n더 편리하게\n업무와 일정을 하나로 관리하세요\n\n캘린더 이벤트와 함께 마감일과 프로젝트 타임라인을 확인하고 우선순위에 따라 업무를 진행하세요.\n\nNotion 문서 연결하고 생성하기\n\nNotion에 저장된 일정을 캘린더에 연동하면 나의 스케줄을 한눈에 파악할 수 있어요.\n\n프로젝트 타임라인 업데이트\n\n드래그 & 드롭만 하면 캘린더를 나가지 않고도 Notion 데이터베이스 항목을 편집할 수 있습니다.\n\n모든 순간을 위한 편리한 시간 관리\n모든 일정을 한곳에서 확인하기\n\n업무와 개인 일정을 조화롭게 관리하세요.\n\n여러 개의 캘린더 연동하기\n\n업무와 개인 일정을 쉽고 빠르게 동기화하세요.\n\n일정이 겹치는 스케줄 사고 방지\n\n모든 캘린더에서 겹치는 시간대를 자동으로 차단합니다.\n\n사용이 쉬운 모바일 앱\n\niOS와 Android 위젯으로 일정을 한 눈에 확인하고 손쉽게 이벤트를 추가하세요.\n\n자주 사용하는 툴 연결\nNotion\n\n여러 워크스페이스에 저장된 중요한 일정을 하나의 캘린더로 불러오세요.\n\nGoogle 캘린더\n\nNotion 워크스페이스에 Google 캘린더를 연동하세요.\n\nGoogle Meet\n\nGoogle 캘린더와 함께 자동으로 연동됩니다.\n\nZoom\n\n새로운 Zoom 회의를 Notion 캘린더에서 바로 생성해 보세요.\n\nApple 캘린더\n\nNotion에서 바로 Apple 캘린더 일정을 생성할 수 있습니다.\n\n기타 회의 서비스\n\n다른 인기 회의 서비스의 맞춤 링크를 추가할 수 있습니다.\n\n무료로 다운로드하세요\n일과 삶의 조화를 위한 더 나은 캘린더가 기다립니다\nNotion 캘린더 무료 다운로드→\n데스크톱 앱\nmacOS\nWindows\n모바일 앱\nApple App Store\nGoogle Play\n자주 묻는 질문(FAQ)\n\nNotion 캘린더는 어떤 캘린더 서비스와 연동되나요?\n\n모바일 기기에서 Notion 캘린더를 사용할 수 있나요?\n\nNotion 캘린더에서 Google 캘린더를 볼 수 있나요?\n\n우리는 도구를 만들고,\n그 후에는 도구가 우리를 만듭니다.\nMarshall McLuhan\n제품\n기능\n새로운 소식\nNotion AI\n가격\n영업팀 문의하기\n다운로드\n더 살펴보기→\n리소스\n고객 스토리\n연결\n마켓플레이스\n도움말 센터\n아카데미\n커뮤니티\n회사 소개\nNotion 소개\n채용\n보안\n서비스 상태\n이용약관 및 개인정보 보호정책\n개인정보 보호 권한\n용도별\n회사\n소규모 비즈니스\n스타트업\n개발자\n한국어\n쿠키 설정\n\n© 2026 Notion Labs, Inc",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/05-notion-calendar.png",
+    "note": "여러 정보 층위를 패널로 나누는 구성. 캘린더 기능 자체는 이번 본선 화면에 추가하지 않음"
+  },
+  {
+    "id": "06-sunsama",
+    "category": "Calm planning",
+    "requestedUrl": "https://www.sunsama.com/",
+    "title": "Sunsama - Make work-life balance a reality.",
+    "url": "https://www.sunsama.com/",
+    "headings": [],
+    "text": "We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience, personalize content, customize advertisements, and analyze website traffic. For these reasons, we may share your site usage data with our social media, advertising, and analytics partners. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy. You can change your cookie settings at any time by clicking “Preferences.”\nPreferences\nAccept\nFeatures\nIntegrations\nPricing\nLove\nAbout\nBlog\nLogin\n\nStart for Free\nNamed Best\nScheduling Tool by\nStart Calm.\nStay Focused.\nEnd Confident.\nThe only task manager, calendar, and daily planner for modern professionals. Eliminate distractions, find flow, and do more high-impact work without burning out. The digital daily planner that helps you feel calm and stay focused.\nTry for free\n14-day free trial\nNo credit card required\nTrusted by professionals who want\nto do their best work every day.\nWork is\nf***ing chaotic\nAlways on, working late, never done\nConstantly interrupted and losing focus\nStruggling to manage tasks and meetings\nSunsama turns\nchaos into clarity‍\nEnd the day on time, feeling accomplished\nBlock focus time and actually protect it\nSee tasks and meetings together in one clear plan\nI use Sunsama to track everything and ensure important tasks get done.\nGeoff Ralston\nPresident, YC\nSunsama is the productivity app I've been searching for my whole life. Actually, I lied. It's better.\nHenry Ault\nFounder @ Eco\nThe tool that has had the greatest impact on my life and my productivity is unquestionably Sunsama. These guys deserve a Nobel prize.\nPaul Galatis\nCEO @ Names and Faces\nFeatures\nSunsama is purpose-built to help modern professionals do great work, without burning o",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/06-sunsama.png",
+    "note": "차분한 바탕색, 정보 밀도 조절과 카드 간격"
+  },
+  {
+    "id": "07-akiflow",
+    "category": "Actions / productivity",
+    "requestedUrl": "https://www.akiflow.com/",
+    "title": "Akiflow | Time-Blocking Digital Planner & Calendar",
+    "url": "https://akiflow.com/",
+    "headings": [
+      "One app for tasks & calendars",
+      "powered by AI",
+      "Save hours every week with your calendars, tasks, and assistant. All in one place. Built for founders, operators, and obsessed doers.",
+      "The All-in-One Productivity Suite",
+      "Calendar, tasks, inbox, and AI into one seamless flow. With you in control.",
+      "Your Always-On AI Sidekick",
+      "Capture tasks at the speed of thoughts",
+      "A Productivity Tool Box"
+    ],
+    "text": "Why Akiflow?\n\nAkiflow For\n\nResources\n\nPricing\n\nLog in\nTry for free\nOne app for tasks & calendars\npowered by AI\nSave hours every week with your calendars, tasks, and assistant. All in one place. Built for founders, operators, and obsessed doers.\nTry Akiflow for free\n\nYou have\n\n1h slot at 8 AM.\n\nShall I block it?\n\nDo I have time to review the roadmap tomorrow?\n\nAki\n\nAsk me anything\n\nDesigned in Italy\n\nBacked by\n\nY Combinator\n\nTrusted by ambitious professionals and teams worldwide\n\nTry Akiflow for free\n\n7 days free. Cancel anytime.\n\nThe All-in-One Productivity Suite\nCalendar, tasks, inbox, and AI into one seamless flow. With you in control.\nOne calendar that syncs\nWork & Life\n\nMon\n\n6\n\nTue\n\n7\n\nWork event\n\n08:00 - 09:00\n\nPersonal event\n\n08:30 - 09:30\n\n08:00\n\n08:30\n\n09:00\n\n09:30\n\n10:00\n\n10:30\n\nTask Manager for\nMindful Planning\nSomeday\nThis month\nThis week\n\nReview all contents\n\nPersonal\n\nUniversal Inbox & Integrations\n\nInbox\n\nImprove website impact\n\nPersonal\n\nReview all contents\n\nPersonal\n\nDeploy new release\n\nPersonal\n\nOn-Demand\nExecutive AI Assistant\nMoving check-in to Tomorrow\nToday's Agenda\n\nApple Watch\n\niCloud Calendar\n\nTry Akiflow for free\n\n7 days free. Cancel anytime.\n\nThe calendar that works as hard as you do\n\nEvery meeting, every task all in one place.\nTime-block your day\nautomatically\nWork & Personal\nin perfect sync\nSchedules for you.\nIn one click.\nTeam scheduling\non autopilot\n\nReview documents\n\n30m\n\n☕️ Breakfast\n\n08:00 - 08:30\n\nTry Akiflow for free\n\n7 days free. Cancel anytime.\n\nPlans that actually get done\n\nTurn your tasks into a clear Plan\nBlock time\nfor what matters most\nSmart Time Slots\nthat work around you\nPlan your\nday, week, automatically\nStay goal‑aligned\nwith AI nudges\nTry Akiflow for free\n\n7 days free. Cancel anytime.\n\nThe Universal Inbox\n\nAll your work, ca",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/07-akiflow.png",
+    "note": "입력·보조 행동·우측 문맥 정보의 구성 참고"
+  },
+  {
+    "id": "08-morgen",
+    "category": "Personal calendar / profile",
+    "requestedUrl": "https://www.morgen.so/",
+    "title": "Morgen: AI Daily Planner for Calendars & Tasks",
+    "url": "https://www.morgen.so/",
+    "headings": [
+      "Daily plans designed by AI, perfected by you",
+      "Tasks that matter belong on your calendar",
+      "All your calendars in one place",
+      "Ready to take control of time?",
+      "Data security"
+    ],
+    "text": "Features\nPricing\nResources\nSign in\n\nGet Started\nDaily plans designed by AI, perfected by you\nA daily planner that prioritizes your most important to-dos, events, and projects in one app. Get AI-powered recommendations or plan manually.  \nGet Started\nFor Win, Mac, Linux, web & mobile.\nNo credit card required.\n\n\nTop performers from leading companies rely on Morgen\n\nTasks that matter belong on your calendar\nMorgen prioritizes impactful work and helps you plan your week.\nFeel confident in what to work on next and protect valuable focus time by scheduling tasks from Notion, ClickUp, Linear or Todoist in your calendar.\n\nProactive assistance you can rely on\n\nMorgen helps you plan ahead and easily adapt to schedule changes as they arise.\n\n\nPlans that adapt. AI Planner helps reprioritize your plan in case of conflicts.\nDon't miss a task. Morgen reminds you of uncompleted tasks from previous days.\nStay ahead of deadlines. AI Planner evaluates your capacity and highlights tasks at risk of being late.\nLearn about the AI Planner\nGet help from AI without giving up control\n\nGuide the AI Planner by templating your ideal week with Frames. The plan is yours to accept or adapt.\n\n\nPreview. AI Planner shows live recommendations in your calendar using Frames for guidance.\nAdjust. Move tasks around or adjust their duration. AI Planner adapts in real-time to your changes.\nSchedule. Confirm to schedule tasks in your calendar and protect time to achieve your goals.\nLearn about the AI Planner\nYour time shouldn't be scattered across apps\n\nManage your calendars and tasks together and avoid double-bookings, missed events, and overloaded days.\n\n\nCombine calendars. Manage your work and personal commitments in one place.\nAll your tasks. Filter and schedule tasks from across project management, to-do, a",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/08-morgen.png",
+    "note": "다크 바탕에서 정보 영역을 구분하는 대비"
+  },
+  {
+    "id": "09-motion",
+    "category": "Planning density",
+    "requestedUrl": "https://www.usemotion.com/",
+    "title": "The AI Powered SuperApp for Work | Motion",
+    "url": "https://www.usemotion.com/",
+    "headings": [
+      "Get an unfair advantage by using AI to double productivity",
+      "Motion is built for individuals and teams of all sizes",
+      "Stop using tech from the pre-AI era",
+      "AI Task Planner",
+      "AI Project Manager",
+      "AI Meeting Notetaker",
+      "AI Docs Assistant",
+      "AI Calendar Assistant"
+    ],
+    "text": "Features\nUse Cases\nResources\nPricing\nLogin\nTry Motion for free\n\nVoted #1 hottest product by  \nAmplitude\n\nGet an unfair advantage by using AI to double productivity\n\nThe #1 Rated Productivity Platform for the AI Era. AI Projects, AI Tasks, AI Calendar, AI Meetings, AI Docs, AI Notes, AI Reports, AI Workflows, and more.\n\nTry Motion for free\n\nStart your free trial. Cancel in 1 click.\n\nWhat AI tools would you like to use?\nAI Tasks\nAI Projects\nAI Docs\nAI Notetaker\nAI Calendar\nAI Workflows\nAI Reports\nTry Motion for free\n\nStart your free trial. Cancel in 1 click.\n\nOver 1 million top performers and teams trust Motion\n\nMotion is built for individuals and teams of all sizes\n\nWhether you are an individual, a 20-person team, or a 1000-person business\n\n“Motion saved me from under-performing at my job, I feel so much less stressed and finally have a healthy work-life balance”\n\nMatt J, Business Analyst\n\n“Motion helped me get promoted 12 months faster than peers”\n\nJason H, Marketing Manager\n\n“Motion helped make our business an extra $700k/year because we were able to complete client projects faster”\n\nEvan H, Business Owner\n\n“Motion saved us what’s equivalent to $250k a year of time previously wasted in emails and meetings”\n\nSean H, COO\n\nStop using tech from the pre-AI era\nYour existing, average tools\nNormal Task Manager\n\nEndless lists, missed deadlines, forgotten tasks\n\nNormal Project Manager\n\nRequires babysitting and hours of daily, manual work\n\nNormal Docs\n\nWaste hours on drafting, reviewing, proofreading. Disorganized.\n\nNormal Calendar\n\nLots of conflicts, never enough time\n\nNormal Meetings\n\nTake notes manually, miss important details\n\nNormal Search\n\nSpend hours a week finding stuff\n\nNormal Workflows\n\nLong SOPs that are difficult to follow\n\nNormal Busywork\n\nSpend 90% of time on repet",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/09-motion.png",
+    "note": "핵심 행동과 보조 설명의 시각적 위계 탐색"
+  },
+  {
+    "id": "10-my-study-life",
+    "category": "Student planning",
+    "requestedUrl": "https://mystudylife.com/",
+    "title": "MyStudyLife | Free Student Planner, Homework Tracker & Study App",
+    "url": "https://mystudylife.com/",
+    "headings": [
+      "The free student planner that keeps school life organised.",
+      "How it works",
+      "Your AI study partner.\nJust ask.",
+      "A proven method for\nproductive studying",
+      "Watch your whole week build itself.",
+      "Everything a student needs, in one app",
+      "Sync with the calendars you already use",
+      "Goodbye chaos. Hello control."
+    ],
+    "text": "Home\nApp Tour\nFor Parents\nAbout Us\nStudy Tips\nOpen web app\n\n#1 free student planner — loved by 10M+ students\n\nThe free student planner that keeps school life organised.\n\nClasses, homework, exams, activities, and revision — planned in one place with your AI study coach, so you’re always ahead and on track for your best grades.\n\nOpen the web app\nHomework planner\nStudy & exam planner\nSchedule & class organiser\n\nTrusted by students in 187+ countries\n\nStudents organised\n0\nM+\nNew students each year\n0\nM+\nCountries\n50\n+\nAverage app rating\n1\nAS FEATURED IN\nThe New York Times\nThe Guardian\nHindustan Times\nForbes\nCommon Sense Media\nHER CAMPUS\nYour whole semester, in one view\n\nClasses, homework, exams and grades live together in one calendar built for real academic life — rotating and block timetables included.\n\nGet reminders & stay ahead\n\nSmart nudges before every class, deadline, and exam keep your whole semester on track.\n\nEverywhere you study\n\nWeb, iPhone and Android, synced instantly — your school planner is always with you, on every device.\n\nUp and running in minutes\nHow it works\nCreate your free account\n\nSign up in seconds on web, iPhone or Android.\n\nAdd your timetable\n\nType your classes or snap a photo — rotating and block weeks supported out of the box.\n\nGet reminders & stay ahead\n\nSmart nudges before every class, deadline and exam keep your whole term on track.\n\nScout by MyStudyLife\nYour AI study partner.\nJust ask.\nPlan my week.\nBuild a revision plan for my chemistry exam.\nWhat’s due Friday?\n\nScout turns one sentence into a fully planned week — schedule, tasks and revision, sorted in seconds.\n\nTry Scout free\nSee how it works\n\nBuilt into MyStudyLife.\n\nThe method\nA proven method for\nproductive studying\n\nProductive students are successful students. MyStudyLife turns good plan",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/10-my-study-life.png",
+    "note": "학생이 이해하기 쉬운 짧은 문구와 모바일 정보 구성"
+  },
+  {
+    "id": "11-shovel",
+    "category": "Student task breakdown",
+    "requestedUrl": "https://shovelapp.io/",
+    "title": "Shovel App - Smart Study Planner That Plans For You",
+    "url": "https://shovelapp.io/",
+    "headings": [
+      "A Study Planner\nThat Plans For You",
+      "From Chaos to Clarity with a Real Plan. Here’s How…",
+      "Your study plan, on autopilot",
+      "Spend more time with your friends",
+      "Students love Shovel, but don't take our word for it...",
+      "Become a Stress-Free Student"
+    ],
+    "text": " \nFree Schedule Builder\n \nFree Courses\n \nHow To Study\n \nDemo\n \nPricing\n \nLogin\n \nStart Planning\n\nFinally,\n\nA Study Planner\nThat Plans For You\nBetter grades. Free weekends. No all-nighters.\nStart Planning in Seconds\n\nSyncs with your school\n\nCanvas\nBrightspace\nMoodle\nGoogle Classroom\n\nNo school sync? Upload your PDF syllabus instead.\n\nFrom Chaos to Clarity with a Real Plan. Here’s How…\n\nSTEP 1\n\nUpload your syllabus or sync with your school platform\n\nUpload your PDF syllabus or sync with Canvas, Brightspace, Moodle, or Google Classroom. Shovel pulls in your tasks and due dates, so you’re not typing them in one by one.\n\nBIO 101\nCourse syllabus · Fall term\nPDF\nBIO 101\n14 tasks added\nCh. 1–2 reading\nSep 9\nLab report 1\nSep 18\nQuiz 1\nSep 25\nMidterm exam\nOct 16\n+ 10 more\nOr sync with your school\nCanvas\nBrightspace\nMoodle\nClassroom\n\nSTEP 2\n\nTurn DUE dates into DO dates\n\nDrag a task into your free time so it actually gets done. Now that’s a study plan. #ProcrastinationCure\n\nSTEP 3 · NEW\n\nToo busy to plan? Hit Auto-plan.\n\nOne click and Shovel fills your free time with study sessions, so every task gets done before it’s due. Don’t like a spot? Drag it somewhere else.\n\nUses only your free time\nBreaks big tasks into doable sessions\nMissed a session? Hit Replan.\n\nThis week\nOct 13 – 17\nFree time\nStudy session\nAuto-plan\n9am\n11am\n1pm\n3pm\n5pm\nMon 13\nBIO 101 · Class\nLab report\n2h\nWork shift\nTue 14\nPSY 210 · Class\nReading · 45m\nSoccer\nPractice\nWed\nLab report due\nBIO 101 · Class\nLab report 1h\nThu 16\nPSY 210 · Class\nExam review\n2h\nFri\nPSY exam\nExam review 1h\nPSY exam\n5 study sessions planned · 6h 45m · all done before it’s due\n\nCONNECT YOUR AI APP\n\nYour study plan, on autopilot\n\nConnect Shovel to the AI app you already use and it runs your study life for you. You just study.\n\nMuse\nClaude\nGrok\n",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/11-shovel.png",
+    "note": "학습 맥락에 맞는 구획과 친근한 시각 언어"
+  },
+  {
+    "id": "12-stellic",
+    "category": "Academic planning / progress",
+    "requestedUrl": "https://www.stellic.com/",
+    "title": "Stellic | Student Journey and Academic Planning Platform",
+    "url": "https://www.stellic.com/",
+    "headings": [
+      "The student journey platform\nfor higher education",
+      "TRUSTED BY",
+      "Imagine a college experience where every moment is meaningful",
+      "Confidence and clarity for your whole campus lives in one platform",
+      "Like your institution, our features work best together",
+      "We make it easy to get started",
+      "1,000,000",
+      "SEE WHAT WE CAN DO FOR YOUR"
+    ],
+    "text": "The Campus Opportunity Calculator: Discovery what's possible for your institution\nProducts\nSolutions\nSuccess Stories\nResources\nCompany\nRequest a demo\nThe student journey platform\nfor higher education\n\nStellic turns academic planning into a path every student can see and every office can support, all the way to graduation.\n\nRequest a demo\nTRUSTED BY\nCarnegie Mellon University\nFlorida State University\nUniversity of Virginia\nDuke University\nUNSW Sydney\nSanta Monica College\nCornell University\nThe Ohio State University\nIndiana University\nTCU\nColumbia University in the city of New York\nThe University of Newcastle Australia\nJohns Hopkins University\nJohnson County Community College\nCase Western Reserve University\nThe University of Utah\nOakwood University\nUniversity of Nebraska\nColorado College\nQatar University\nWHY STELLIC\nImagine a college experience where every moment is meaningful\nFor students\n\nBuild an enriched academic journey that accounts for degree requirements and courses that support your unique priorities.\n\nFor advisors\n\nGet back the time spent on administrative tasks and give your students tailored guidance that truly impacts their success.\n\nFor administrators\n\nSee how students, staff, and resources are working together and uncover opportunities for worthwhile change.\n\nOur platform makes it easy for your entire campus to work in sync: freeing students from missed credits, misunderstandings, and missed opportunities.\n\nConfidence and clarity for your whole campus lives in one platform\nEXPLORE\nTools to unlock the possibilities for tomorrow's students\nPathways for prospective students\n\nShow incoming students what degree paths best match their intended goals and existing credits.\n\nTransfer rules management\n\nCreate and maintain transfer rules so that students can move forw",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/12-stellic.png",
+    "note": "학사 서비스의 차분한 편집·서체 방향 탐색. 공개 제품 소개 기준"
+  },
+  {
+    "id": "13-pathify",
+    "category": "University portal",
+    "requestedUrl": "https://pathify.com/",
+    "title": "Pathify | Campus Experience Platform (CXP) for Higher Ed",
+    "url": "https://pathify.com/",
+    "headings": [
+      "Change the\nNarrative",
+      "The public now questions the value of a degree. Pathify’s agent-first Campus Experience Platform broadcasts higher ed’s rebuttal.",
+      "Make the case for “yes.”",
+      "Everything, connected",
+      "Not a feature. The foundation.",
+      "Everyone else “improved” their portals. We reinvented the experience.",
+      "Built for\nhigher ed",
+      "Proof,\nnot promises"
+    ],
+    "text": "Skip to content\nCampus Experience Platform\nCustomer Stories\nResources\nAbout\nBook a Demo\nChange the\nNarrative\nThe public now questions the value of a degree. Pathify’s agent-first Campus Experience Platform broadcasts higher ed’s rebuttal.\nBook a Demo\nWatch a 60-Second Overview\n300+ trailblazing institutions thriving with Pathify.\n\nFrom community colleges and small private schools to flagship research universities — pioneers come in all shapes and sizes.\n\nMake the case for “yes.”\n\nFamilies ask if college is worth it — and clunky, outdated digital experiences makes the case for “no.” Registration in one system. Advising in another. Events on a calendar nobody checks. Everything else, buried in email.\n\nThe Campus Experience Platform (CXP) closes the growing experience gap by unifying the entire journey into a single agent-first hub — find information, take action, stay on track. The experience finally matches the promise.\n\nTHE CAMPUS EXPERIENCE PLATFORM\nEverything, connected\nOne platform. Every audience. Modular by design.\nAI Agent\nBuilt to act, not just answer.\nHub\nA consumer-grade experience for the entire campus.\nCommunities\nWhere students find their groove.\nAudiences\nOne platform personalized for every stakeholder.\nAI Agent\n\nDigital runaround ends here. Pathify’s AI Agent redefines AI governance by giving institutions the enterprise oversight and control they require — agents grounded in institutional data, governed centrally and built for the accuracy your institution requires.\n\nReplaces: Point solution chatbots, support chatbots, marketing website chatbots\n\nLearn More →\n\nINTEGRATIONS\nNot a feature. The foundation.\n\nYou can’t end the digital runaround without connecting the systems that feed it. Pathify connects your tech-stack out of the box — 200+ integrations ready",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/13-pathify.png",
+    "note": "캠퍼스 맥락을 유지하는 사이드 탐색과 대화형 진입"
+  },
+  {
+    "id": "14-ellucian",
+    "category": "Campus experience",
+    "requestedUrl": "https://www.ellucian.com/solutions/ellucian-experience",
+    "title": "Central Workspace experience for every higher ed role | Ellucian",
+    "url": "https://www.ellucian.com/products/platform/central-workspace",
+    "headings": [
+      "A Productivity Hub for Every User",
+      "Simplify How Your Campus Gets Work Done",
+      "Empower Every User With One Connected Space",
+      "Explore Our Platform Hands-On",
+      "Transform Engagement Across Campus",
+      "Everyone Benefits From a Central Workspace",
+      "See Your Info - Your Way",
+      "One Hub for Student Life"
+    ],
+    "text": "Skip to main content\nMain menu\nEllucian\n\nWhy Ellucian\n\nProducts\n\nAI for Higher Ed\n\nServices\n\nResources\n\nCompany\n\nSide navigation\nPartners\nCustomer Center\nOpen Search Form\nOpen language selector\nNorth America\nMiddle East & Africa\nLatin America and Caribbean\nEurope\nAsia Pacific\nUnited States (English)\nCall to action\nLet's Talk\nSkip to content\nHome\nProducts\nEllucian Platform\nCentral Workspace\n\nCentral Workspace\n\nA Productivity Hub for Every User\n\nDeliver a unified, personalized digital experience for students, faculty, and staff. The central workspace connects people, tasks, and insights across your entire ecosystem — reducing friction in a single, centralized location.\n\nRequest a Demo\nSimplify How Your Campus Gets Work Done\nImage\nDrive Timely Actions Campuswide\n\nSurface relevant information and next steps exactly when users need them, helping students complete tasks faster and staff manage priorities efficiently.\n\nImage\nPersonalized for Every User\n\nTailor dashboards for each role, students, advisors, faculty, or executives, so everyone sees what matters most to them in one central experience.\n\nImage\nSeamless Design, Fewer Clicks\n\nDeliver a consistent, modern interface across devices with fewer logins and faster access to essential information and tools.\n\nEmpower Every User With One Connected Space\n\nThe central workspace connects your ecosystem so every campus stakeholder gains quicker access to the insights, tools, and workflows they use every day.\n\nRole-Based Digital Experiences\nRole-Based Digital Experiences\n\nSimplify daily life for every campus role. From course registration to payroll and advising, users get a personalized view of tasks and alerts. Deliver relevant information instantly, enabling students to stay on track, faculty to manage classes efficiently, and ad",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/14-ellucian.png",
+    "note": "개인화된 캠퍼스 정보와 카드 구획. 공개 제품 소개 기준"
+  },
+  {
+    "id": "15-typeform",
+    "category": "Progressive onboarding",
+    "requestedUrl": "https://www.typeform.com/",
+    "title": "Form Builder with AI Automation | Typeform",
+    "url": "https://www.typeform.com/",
+    "headings": [
+      "Your favorite forms.\nNow with AI automation.",
+      "Build forms at the drop of a prompt",
+      "High Response Rate",
+      "Deeper Insights",
+      "Advanced Analytics",
+      "When the form ends, the flow begins...",
+      "Be proactive with customer data",
+      "Instant Lead Capture"
+    ],
+    "text": "Skip to main content\n\nConnect Claude, ChatGPT, or any MCP-ready assistant to your Typeform account. \n\nTry it now\nPlatform\nSolutions\nResources\nPricing\nLog in\nContact sales\nSign up\n\nAI FORMS & AUTOMATION\n\nYour favorite forms.\nNow with AI automation.\n\nCombine AI forms and automated workflows to drive revenue growth. Run in-depth research and manage the entire customer lifecycle. All in Typeform.\n\nGet started—it’s free\n\nINTELLIGENT FORMS\n\nBuild forms at the drop of a prompt\n\nWith over 48 million responses collected monthly, Typeform AI builds best-in-class forms proven to get 3.5x more data. Brand easily, customize everything.\n\nExplore forms\nHigh Response Rate\n\nBuild forms people actually fill out with beautiful design and conversational logic that adapts to every response, doubling the completion rate vs. traditional forms.\n\nDeeper Insights\n\nGet rich answers with video and audio responses, plus extra context from AI-generated follow-up questions that adapt as people complete your form.\n\nAdvanced Analytics\n\nDig into both qualitative and quantitative data with topic and sentiment analysis, respondent comparison, and form drop-off analysis.\n\nWhen the form ends, the flow begins...\n\nGROWTH FLOW\n\nNEW\n\nBe proactive with customer data\n\nSet up automations that convert and keep customers for you. As opportunities arise, Growth Flow steps in to enrich leads, create segments, and send personalized messages.\n\nExplore Growth Flow\nInstant Lead Capture\n\nClose deals directly in your forms. Capture e-signatures, schedule meetings with Google Calendar and Calendly, and accept payments with Stripe and Paypal.\n\nData Enrichment\n\nEnrich data to complete customer profiles, with industry-leading match rates of up to 92% for B2B companies and 71% for B2C companies.\n\nCustomer Engagement\n\nFollow up i",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/15-typeform.png",
+    "note": "단계형 정보 입력 방향 탐색. 초기 프레임 캡처라 세부 폼 구조는 Tally와 기획서 원안을 우선 참고"
+  },
+  {
+    "id": "16-tally",
+    "category": "Accessible form rhythm",
+    "requestedUrl": "https://tally.so/",
+    "title": "Tally - Create Beautiful Forms for Free | Unlimited Forms & Submissions",
+    "url": "https://tally.so/",
+    "headings": [
+      "The simplest way to create forms",
+      "A form builder like no other",
+      "Simple but\n powerful",
+      "Craft intelligent\n forms",
+      "Make forms uniquely yours",
+      "Share with your audience",
+      "Connect your favorite tools",
+      "Designed for you"
+    ],
+    "text": "Pricing\nLog in\nSign up\nCreate form\nThe simplest way to create forms\n\nSay goodbye to boring forms and surveys. Meet Tally — the free, intuitive form builder you’ve been looking for.\n\nCreate a free form\nNo signup required\nPowering 2,500,000+ teams at the world’s best companies\nA form builder like no other\n\nTally makes it simple for anyone to build free online forms. No need to code — just type your questions like you would in a doc.\n\nUnlimited forms and submissions for free\n\nPaywalls getting in the way? Not anymore. Tally gives you unlimited forms and submissions, completely free, as long as you stay within our fair usage guidelines.\n\nJust start typing\n\nTally is a new type of online form builder that works like a text document. Just start typing on the page and insert blocks same as Notion.\n\nPrivacy-friendly form builder\n\nYour data privacy and security are our top priorities. We are GDPR compliant and treat your data with care and confidentiality.\n\nTally is hosted in Europe, we don’t use cookie-tracking, and all form data is securely stored, and encrypted both in transit and at rest. Learn more about Tally & GDPR.\n\n“Loving Tally! Not sure why I only started using it now, so good!”\nBen Lang\nAngel investor, previously at Notion\nSimple but\n powerful\n\nAdvanced features packed in a simple form builder. It couldn’t be easier to create forms that convert.\n\nBuild any form in seconds\n\nEasily create online forms using our wide range of free input blocks. Collect contact info, files, signatures, payments, and much more. Build everything from surveys to quizzes to lead generation forms.\n\nContact info. Collect names, addresses, phone numbers, emails & links.\nAccept payments. Create checkout forms without code.\nSignatures. Accept e-signatures and streamline contract signing.\nRate & ran",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/16-tally.png",
+    "note": "간결한 폼, 읽기 쉬운 라벨과 여백"
+  },
+  {
+    "id": "17-toss",
+    "category": "Korean typography / hierarchy",
+    "requestedUrl": "https://toss.im/",
+    "title": "토스",
+    "url": "https://toss.im/",
+    "headings": [
+      "금융부터 일상까지\n마침내\n토스 하나로",
+      "몇 번만 누르면\n끝나는 송금"
+    ],
+    "text": "서비스\n비즈니스\n회사소개\n뉴스룸\n채용\nKOR\n앱\n \n다\n운\n로\n드\n앱\n \n다\n운\n로\n드\n금융부터 일상까지\n마침내\n토스 하나로\n몇 번만 누르면\n끝나는 송금\n\n계좌번호를 물어보고 입력하는 번거로운 과정 없이,\n이젠 연락처에서 친구를 찾아 금액만 입력하면 끝나요.",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/17-toss.png",
+    "note": "짧고 큰 한국어 문구와 명확한 행동 위계. 공개 홈페이지 기준"
+  },
+  {
+    "id": "18-kakaobank",
+    "category": "Korean selection / reassurance",
+    "requestedUrl": "https://www.kakaobank.com/",
+    "title": "카카오뱅크",
+    "url": "https://www.kakaobank.com/",
+    "headings": [
+      "카카오뱅크",
+      "나의 첫 번째 AI 은행\n카카오뱅크",
+      "나의 일상 속 유용한\n금융 서비스를 만듭니다",
+      "주요 경영 정보",
+      "카카오뱅크가 만드는\n금융 이야기"
+    ],
+    "text": "주 메뉴로 이동\n본문으로 이동\n푸터로 이동\n카카오뱅크\n소개\n회사소개\n윤리경영\n브랜드 리소스\n오시는 길\n공지사항\n제휴문의\n입찰공고\n서비스\nESG\n투자정보\n주요정보\n공시정보\n경영정보\n재무정보\nIR자료실\nIR일정\nIR공지\n공고\n고객센터\n인재영입\n한국어\nEnglish\n나의 첫 번째 AI 은행\n카카오뱅크\n나의 첫 번째 AI 은행\n카카오뱅크\n나의 일상 속 유용한\n금융 서비스를 만듭니다\n주요 경영 정보\n실적발표\n경영공시\nESG\n카카오뱅크가 만드는\n금융 이야기\nYouTube\n카뱅큐 <개인사업자 인증서로 홈텍스에서 전자세금계산서 받기>\n\n카카오뱅크 개인사업자 인증서 무료로 발급 받으세요. 인증서는 암호화하여 앱에 보관되니, 필요할 때마다 편리하게 이용하세요.\n\n더 알아보기\n금융기술연구소\n기술블로그\n카카오뱅크 AD\n카카오뱅크 인증서\n제휴문의\n인재영입\n비즈니스\n카카오뱅크 AD\n카카오뱅크 인증서\n제휴문의\n기술\n금융기술연구소\n기술블로그\n새소식\n블로그\n인스타그램\n유튜브\n페이스북\n브런치\n모바일뱅킹 서비스 이용약관\n전자금융거래 기본약관\n위치기반 서비스 이용약관\n카카오뱅크 인증서 서비스 이용약관\n전자서명인증업무준칙\n개인정보처리방침\n신용정보활용체제\n영상정보처리운영방침\n전자민원접수\n보호금융상품등록부\n상품공시실\n경영공시\n(주)카카오뱅크\n윤호영\n사업자번호 375-88-00197\n1599-3333\n© KakaoBank Corp.\n페이지 로드가 완료되었습니다.",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/18-kakaobank.png",
+    "note": "한국어 제목과 하나의 주요 행동에 집중하는 구성. 공개 홈페이지 기준"
+  },
+  {
+    "id": "19-duolingo",
+    "category": "Welcoming guided setup",
+    "requestedUrl": "https://www.duolingo.com/",
+    "title": "듀오링고 - 세계에서 가장 인기 있는 학습 방법",
+    "url": "https://www.duolingo.com/",
+    "headings": [
+      "외국어, 체스 등을 가장 재미있게 배우는 방법!",
+      "재밌고 효과적인 무⁠료⁠ ⁠언⁠어⁠ ⁠학습",
+      "과학에 기반한 학습",
+      "꾸준한 학습 동기 자극",
+      "맞춤형 학습",
+      "언제 어디서나 학습하세요",
+      "duolingo english test",
+      "듀오링고와 함께 언⁠어⁠를⁠ ⁠배⁠우⁠세⁠요"
+    ],
+    "text": "사이트 언어: 한⁠국⁠어\n외국어, 체스 등을 가장 재미있게 배우는 방법!\n시작하기\n계정이 이미 있습니다\n영⁠어\n체스\n스⁠페⁠인⁠어\n프⁠랑⁠스⁠어\n독⁠일⁠어\n이⁠탈⁠리⁠아⁠어\n포⁠르⁠투⁠갈⁠어\n일⁠본⁠어\n중⁠국⁠어(⁠간⁠체⁠)\n재밌고 효과적인 무⁠료⁠ ⁠언⁠어⁠ ⁠학습\n\n듀오링고와 함께하는 학습은 재미있을 뿐 아니라, 그 효과도 입증되었어요! 짤막한 레슨으로 포인트를 획득하고 새로운 레벨을 잠금 해제하면서 실생활 회화 능력을 키워보세요.\n\n과학에 기반한 학습\n\n듀오링고는 연구를 통해 입증된 교수법과 재미있는 콘텐츠를 결합하여 읽기, 쓰기, 듣기, 말하기 능력을 효과적으로 가르치는 과정을 만들어냈습니다!\n\n꾸준한 학습 동기 자극\n\n게임화된 학습 기능, 재미있는 도전, 그리고 친절한 부엉이 마스코트 듀오의 알림을 통해 언어 학습 습관을 쉽게 기를 수 있도록 도와드립니다.\n\n맞춤형 학습\n\n최고의 AI 및 언어 과학을 적용하여, 학습자에게 적합한 수준과 페이스로 학습할 수 있도록 맞춤 레슨을 제공합니다.\n\n언제 어디서나 학습하세요\nApple App Store에서\n다운로드하기\nGoogle Play에서\n다운로드하기\n1주 무료 체험하기\nduolingo english test\n\n편리하고 신속하며 저렴한 듀오링고 영어 능력 시험은 최신 측정 과학과 AI 기술을 적용하여 누구나 본인이 원하는 장소에서 최상의 컨디션으로 시험을 볼 수 있도록 도와줍니다.\n\n영어 능력 인증받기\n듀오링고와 함께 언⁠어⁠를⁠ ⁠배⁠우⁠세⁠요\n시작하기\n듀오링고 소개\n학습 과정\n사명\n교육방식\n학습 효과\n듀오링고 핸드북\n연구\n인재 채용\n스토어\n언론\n투자자\n듀오링고에 문의하기\n제품\n듀오링고\nDuolingo for Schools\nDuolingo English Test\n팟캐스트\nDuolingo for Business\n슈퍼 듀오링고\n슈퍼 듀오링고 선물하기\n듀오링고 맥스\n앱\n안드로이드용 듀오링고\niOS용 듀오링고\n도움말 및 지원\n듀오링고 FAQ\n학교용 듀오링고 FAQ\nDuolingo English Test FAQ\n상태\n개인정보처리방침 및 약관\n커뮤니티 지침\n규정\n개인정보보호\n소셜 미디어\n블로그\nInstagram\nTikTok\nTwitter\nYouTube\nLinkedIn\n사이트 언어:\nالعربيةবাংলাČeštinaDeutschΕλληνικάEnglishEspañolFrançaisहिंदीMagyarBahasa IndonesiaItaliano日本語ಕನ್ನಡ한국어मराठीNederlandsਪੰਜਾਬੀPolskiPortuguêsRomânăРусскийsvenskaதமிழ்తెలుగుภาษาไทยTagalogTürkçeУкраїнськоюاُردُوTiếng Việt中文",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/19-duolingo.png",
+    "note": "부담을 낮추는 초기 진입 문구와 명확한 선택 행동"
+  },
+  {
+    "id": "20-intercom-fin",
+    "category": "Trust / conversational handoff",
+    "requestedUrl": "https://www.intercom.com/fin",
+    "title": "Fin. The highest performing Customer Agent",
+    "url": "https://fin.ai/",
+    "headings": [
+      "The highest performing AI Agent for every customer conversation",
+      "Trusted by the world's most forward-looking brands",
+      "Go live in hours, completely managed by your team",
+      "Customers average a 76% resolution rate",
+      "Our operations agent, Operator, does the improvement work for you",
+      "Works on every channel, including Voice",
+      "Integrates with your entire tech stack",
+      "Built with trust, safety and reliability at the core"
+    ],
+    "text": "Product\nAI Technology\nIntegrations\nCustomers\nResources\nPricing\nLog in\nContact sales\nStart free trial\nView demo\nIntercom\n→\nThe highest performing AI Agent for every customer conversation\n\nFin customers average a 76% resolution rate, across 12,000+ businesses.\n\nView demo\nStart free trial\n14 day free trial. No credit card required.\nFin\nThe team can also help\n\nI’ve moved. Can you update my address?\n\nFin\n\nSure. Please share a recent utility bill with the new address.\n\nUtilityBill.pdf\nPDF\nFin\n\nThanks. I’ve updated your address to 456 Oak Avenue, San Jose, CA\n\nFin\n\nYou’ll get a confirmation email soon.\n\nTrusted by the world's most forward-looking brands\nGo live in hours, completely managed by your team\n\nFin is designed so it is fast to set up, and easy for anyone on your team to configure and optimize over time.\n\nSet up in hours\n\nStart with your content. Train Fin with your help center, website, or PDFs or connect to Notion, Confluence, Box and more.\n\nConfigure and connect\n\nAdd Guidance, Procedures, and integrations that let Fin read and write to your systems.\n\nOptimize over time\n\nRun Simulations, Evals and manual inspection and review AI-powered Insights and QA that surface trends and recommendations.\n\nView demo\nStart free trial\nCustomers average a 76% resolution rate\n\nAnd Fin gets better the more it is used. Fin customers see an average 1% increase in resolution rate every month.\nApex, our family of custom models, are trained specifically for CX, using millions of real customer interactions and keep getting better over time.\nFin 4 is our most powerful agent yet. A major step toward a fully agentic customer experience.\n\n“We’ve been seeing around 560,000 resolutions a month, at about a 79% resolution rate”\nIsabel Larrow\nHead of AI Support\nOur operations agent, Operator, does t",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/20-intercom-fin.png",
+    "note": "대화 응답과 보조 정보의 분리. fin.ai로 이동한 공개 소개 페이지 기준"
+  },
+  {
+    "id": "21-chatbase",
+    "category": "Chat / citations / embedding",
+    "requestedUrl": "https://www.chatbase.co/",
+    "title": "Customer-facing AI Agent for Support and Sales | Chatbase",
+    "url": "https://www.chatbase.co/",
+    "headings": [
+      "Conversational agents for customer experience",
+      "One agent for every customer interaction, runs customer service, sales, and product guidance 24/7",
+      "The agent lifecycle",
+      "The agent lifecycle",
+      "The complete product suite for customer-facing agents. Build, deploy and optimize across every channel, on one platform.",
+      "Build once and deploy everywhere",
+      "Build once and deploy everywhere",
+      "Trusted by 10,000+ brands,\nresolving millions of conversations"
+    ],
+    "text": "Product\nSolutions\nResources\nCustomers\nEnterprise\nPricing\nLogin\nGet a demo\nStart free trial\n4.8\nThe leading AI agent for CX\nConversational agents for customer experience\n\nAI agents that meet customers at every stage of their journey, across chat, email, and voice, to resolve issues end to end and increase revenue.\n\nStart free trial\nGet a demo\nOne agent for every customer interaction, runs customer service, sales, and product guidance 24/7\nCustomer Support agent\n\nResolve complex support queries accurately across live chat, email, phone, Slack, and more.\n\nSales agent\n\nEngage prospects, answer product questions, and guide conversations toward revenue.\n\nProduct guidance agent\n\nHelp customers find info and understand your products with a clear, on-brand voice.\n\n\"Chatbase is a strong signal of how customer support will evolve. It is an early adopter of the agentic approach, which will become increasingly effective, trusted, and prominent.\"\n\nMarc Manara, Head of Startups\n\nThe agent lifecycle\n01\nBuild\nConnect your Data Sources, define your agent's role, and set Guardrails. No code required, ready in minutes.\n02\nTest\nRun real customer scenarios before going live. Validate accuracy, brand consistency, and edge case handling across every channel.\n03\nDeploy\nPublish your agent across chat, WhatsApp, email, Slack, and more with a single click. Goes live instantly.\n04\nOptimize\nTrack resolution rates, review escalations, and refine instructions. Your agent improves with every conversation.\nCreate Agent\nInstructions\n\nYou are an AI agent helping customers with inquiries and requests. Represent the company by providing friendly, efficient service. Listen carefully, understand their needs, and resolve issues with care.\n\nBranding\nAccent color\nProcedure\n1.\nGreet customer, ask about return.\n2.",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/21-chatbase.png",
+    "note": "대화형 서비스의 콘텐츠 위계 탐색. 공개 제품 소개 기준"
+  },
+  {
+    "id": "22-mobbin",
+    "category": "Cross-product design patterns",
+    "requestedUrl": "https://mobbin.com/",
+    "title": "Mobbin — UI & UX design inspiration for mobile & web apps",
+    "url": "https://mobbin.com/",
+    "headings": [
+      "Where\nteams\nand agents\nfind\ndesigns\nthat work.",
+      "One library\nfor all your needs.",
+      "Give your AI agents\naccess to Mobbin.",
+      "Trusted by teams that build world-class apps.",
+      "Find what works.\nDesign what's next."
+    ],
+    "text": "MCP\nCustomers\nPricing\nVisit Mobbin on YouTube\nFollow Mobbin on X\nLog in\nWhere\nteams\nand agents\nfind\ndesigns\nthat work.\n\nThe design reference library for apps and sites.\nOver 600,000 shipped screens, new every week.\n\nJoin for free\nSee plans\n\nTrusted by teams and agents at\n\nDesign research took hours.\nNow, it's one search.\n\nEvery designer has that folder.\nHundreds of screenshots saved for later,\nyet somehow never the right one.\n\nJoyful onboarding\nJoyful onboarding\nOne library\nfor all your needs.\n\nApps\n\nSites\n\nScreens\n\nFlows\n\nAnimations\n\nUI Elements\n\nGive your AI agents\naccess to Mobbin.\nConnect MCP\n\nAvailable on Pro & Team plans\n\nCursor\nChatGPT\nClaude\nFigma\nGrok\n\nShow me how top apps design paywalls that make upgrading feel worth it\n\nCurating apps...\nGathering insights...\n\nFound 5 apps\n\nTrusted by teams that build world-class apps.\nRead stories\n\nHow Cursor offloads the 20% to Mobbin, so the team can build the 80%\n\nSaaS/Devtools\n·\nRead story\n\nHow Sanctum's solo designer became a \"1.5x designer team\" without hiring\n\nFintech\n·\nRead story\n\nHow OKX's designers study apps that aren't available in their market\n\nFintech\n·\nRead story\n“\n\nWe want to spend 80% of our time designing new features. For the rest, we look to Mobbin since it's easier to stick with what works.\n\nJohn Bai\nDesigner at SpacexAI\n\nDesigning in fintech?\nFinance+ goes deeper.\n\n60+ investment, banking, and crypto apps, including flows behind KYC walls and geo-locks. Available on Team & Enterprise plans.\n\nExplore Finance+\nFind what works.\nDesign what's next.\n\nMobbin started in 2018 as Jiho's Dropbox folder of screenshots. It's still that folder at heart, just over 600,000 screens bigger.\n\nJoin for free\nSee plans\n\nProducts\n\nPricing\nFinance+\nNew\nMCP\nNew\nChangelog\n\nResources\n\nBlog\nExplore\nColors\nGlossary\nMerch\n\nCompany\n",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/22-mobbin.png",
+    "note": "제품 간 시각 언어 탐색. 로그인 없이 보이는 공개 화면만 확인"
+  },
+  {
+    "id": "23-dribbble",
+    "category": "Chatbot composition exploration",
+    "requestedUrl": "https://dribbble.com/search/ai-chatbot-dashboard",
+    "title": "Browse thousands of Ai Chatbot Dashboard images for design inspiration | Dribbble",
+    "url": "https://dribbble.com/search/ai-chatbot-dashboard",
+    "headings": [
+      "Ai chatbot dashboard"
+    ],
+    "text": "Shots\nExplore\nHire Talent\nGet Hired\nCommunity\nSign up\nLog in\n\nGet 20% off your first payment for design and development services on Dribbble. Use code WELCOME20 🎉\n\nGet Started\nAi chatbot dashboard\n\nBrowse ai chatbot dashboard work, designs, illustrations, and graphic elements\n\nRelated:\nartificial intelligence\nchat bot\nchat app\nchart\ngraph\nadmin\nPopular\nDiscover\nAnimation\nBranding\nIllustration\nMobile\nPrint\nProduct Design\nTypography\nWeb Design\n Filters\nView Olympus AI – AI Chatbot Dashboard\nOlympus AI – AI Chatbot Dashboard\nEmura\nPRO\n+\n84\n17k\nView slothUI: Figma Design System for Gen Z | AI Chatbot Dashboard UI\nslothUI: Figma Design System for Gen Z | AI Chatbot Dashboard UI\nSamuel Oktavianus\nPRO\n59\n38.5k\nView AI Chatbot Dashboard\nAI Chatbot Dashboard\nOnPoint Studio\nPRO\n107\n14.8k\nView freud.ai Mental Health AI Chatbot Dashboard | Virtual Care\nfreud.ai Mental Health AI Chatbot Dashboard | Virtual Care\nstrangehelix\nPRO\n349\n59.1k\nView NovaMind - AI Chatbot Dashboard\nNovaMind - AI Chatbot Dashboard\nVektora\nPRO\n135\n22.5k\n2\nShot Link\nView Axia - AI Chatbot Dashboard\nAxia - AI Chatbot Dashboard\nOrenji Studio\nPRO\n83\n30.3k\nView AI Chatbot Dashboard\nAI Chatbot Dashboard\nAutentika\nPRO\n50\n38.1k\nView SH freud.ai: Mental Health AI Chatbot Dashboard Virtual Care UI\nSH freud.ai: Mental Health AI Chatbot Dashboard Virtual Care UI\nstrangehelix\nPRO\n332\n74.8k\nShot Link\nView Axia - AI Chatbot Dashboard [Research]\nAxia - AI Chatbot Dashboard [Research]\nOrenji Studio\nPRO\n48\n15.1k\nView AI Chatbot Dashboard\nAI Chatbot Dashboard\nAlamgir Hossain\nPRO\n48\n8.9k\nView AI Chatbot Dashboard Platform\nAI Chatbot Dashboard Platform\nOnPoint Studio\nPRO\n16\n3.7k\nView AI Chatbot Dashboard UI/UX Design — AI SaaS Interface\nAI Chatbot Dashboard UI/UX Design — AI SaaS Interface\nAminul Haq Sayem\nPRO\n3\n692\nView AI Chat",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/23-dribbble.png",
+    "note": "여러 챗봇 레이아웃의 컬럼·간격·입력창 배치 비교. 특정 작품을 복제하지 않음"
+  },
+  {
+    "id": "24-behance",
+    "category": "Education dashboard exploration",
+    "requestedUrl": "https://www.behance.net/search/projects?search=student%20dashboard%20ui",
+    "title": "Student Dashboard Ui 프로젝트 :: Photos, videos, logos, illustrations and branding :: Behance",
+    "url": "https://www.behance.net/search/projects?search=student%20dashboard%20ui",
+    "headings": [
+      "크리에이티브를 위한 서비스",
+      "인재 찾기",
+      "Behance",
+      "소셜"
+    ],
+    "text": "메인 콘텐츠로 건너뛰기\n바닥글로 건너뛰기\nbehance.net으로 이동\n둘러보기\n직업\n리소스\n채용\n지금 구매\n로그인\nadobe.com으로 이동\n필터\n추천 항목 피드에서 관련 프로젝트를 보려면 이 태그를 팔로우하세요.\nstudent dashboard ui\n프로젝트\n인물\n에셋\n이미지\n추천\nui/ux\ndesign\nfigma\nux/ui\nweb design\nwork\neducational app design\nwebsite\nprogress tracker\nuser interface\n10,000+ 결과 (\"student dashboard ui\"에 대해)\n저장\nStudySpace — All-in-One AI Student & Adm...\n37\nStudySpace — All-in-One AI Student & Admin Dashboard에 대해 37개 평가\n130\nStudySpace — All-in-One AI Student & Admin Dashboard에 대해 조회수 130회\nHanan Eissa\n저장\nBroadway Learn: Student Dashboard UI/UX ...\n14\nBroadway Learn: Student Dashboard UI/UX Case Study에 대해 14개 평가\n32\nBroadway Learn: Student Dashboard UI/UX Case Study에 대해 조회수 32회\nPrajana Joshi\n저장\nSkyLearn - AI-Powered Learning Dashboard...\n7\nSkyLearn - AI-Powered Learning Dashboard Design에 대해 7개 평가\n216\nSkyLearn - AI-Powered Learning Dashboard Design에 대해 조회수 216회\nSakib C.\nPRO\n저장\nOddo Dash - Teacher Dashboard\n7\nOddo Dash - Teacher Dashboard에 대해 7개 평가\n90\nOddo Dash - Teacher Dashboard에 대해 조회수 90회\nRoopal Sood\n저장\n홍보됨\nPure Design | Branding & UX/UI Design\n34\nPure Design | Branding & UX/UI Design에 대해 34개 평가\n1.5천\nPure Design | Branding & UX/UI Design에 대해 조회수 1,535회\nIhor Muntian\nPRO\n저장\nLMS Academy (Learning management system)\n678\nLMS Academy (Learning management system)에 대해 678개 평가\n1.3만\nLMS Academy (Learning management system)에 대해 조회수 12,700회\nYuliia Kirieieva\n저장\nLERNA Student Academic Dashboard App Des...\n3\nLERNA Student Academic Dashboard App Design에 대해 3개 평가\n44\nLERNA Student Academic Dashboard App Design에 대해 조회수 44회\nFatema Israt\n저장\nAcadence — Multimodal Learning Intellige...\n38\nAcadence — Multimodal Learning Intelligence Platform에 대해 38개 평가\n1.6천\nAcadence — Multimodal Learning Intelligence Platform에 대해 조회수 1,582회\n여러 소유자\n저장\nMirror AI — Student Guidance Platform\n20\nMirror AI — Student Guidan",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/24-behance.png",
+    "note": "교육·학생 대시보드의 모바일/데스크톱 구성 비교. 특정 작품을 복제하지 않음"
+  }
+]

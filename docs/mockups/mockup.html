@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>외대 놓침방지 목업</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+  :root {
+    --navy: #002D56; --navy2: #07366C; --ink: #26303D; --sub: #5C6672; --line: #E3E8EF;
+    --bg: #F4F6F9; --tint: #EAF5FB; --warn: #B45309; --warnbg: #FFF7E6; --ok: #0F7B4B; --okbg: #E8F6EF;
+    --hyp: #6D28D9; --hypbg: #F3EEFF;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Pretendard", "Malgun Gothic", sans-serif; background: #fff; color: var(--ink); }
+  .screen { display: none; width: 390px; height: 844px; background: var(--bg); position: relative; overflow: hidden; flex-direction: column; }
+  .screen.on { display: flex; }
+  .status { height: 44px; display: flex; justify-content: space-between; align-items: center; padding: 0 22px; font-size: 14px; font-weight: 600; background: #fff; }
+  .top { background: #fff; padding: 6px 18px 12px; display: flex; align-items: center; gap: 10px; border-bottom: 1px solid var(--line); }
+  .logo { width: 30px; height: 30px; border-radius: 9px; background: var(--navy); color: #fff; font-weight: 800; font-size: 13px; display: grid; place-items: center; }
+  .top h1 { font-size: 16px; font-weight: 700; color: var(--navy); }
+  .top .sp { flex: 1; }
+  .icon-btn { width: 32px; height: 32px; border-radius: 10px; border: 1px solid var(--line); display: grid; place-items: center; font-size: 14px; color: var(--sub); background: #fff; }
+  .body { flex: 1; padding: 16px; overflow: hidden; display: flex; flex-direction: column; gap: 12px; }
+  .chipbar { display: flex; gap: 6px; flex-wrap: wrap; }
+  .chip { font-size: 12px; padding: 5px 10px; border-radius: 999px; background: var(--tint); color: var(--navy); font-weight: 600; }
+  .chip.out { background: #fff; border: 1px solid var(--line); color: var(--sub); font-weight: 500; }
+  .card { background: #fff; border-radius: 16px; padding: 14px; border: 1px solid var(--line); }
+  .muted { color: var(--sub); font-size: 12.5px; line-height: 1.5; }
+  .label { font-size: 12px; color: var(--sub); font-weight: 600; margin-bottom: 6px; }
+  .progress { height: 4px; background: var(--line); border-radius: 4px; overflow: hidden; }
+  .progress i { display: block; height: 100%; width: 70%; background: var(--navy); }
+  .h2 { font-size: 21px; font-weight: 800; line-height: 1.35; color: var(--ink); }
+  .field { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 11px 13px; font-size: 14.5px; display: flex; justify-content: space-between; }
+  .field .v { font-weight: 600; }
+  .seg { display: flex; gap: 6px; flex-wrap: wrap; }
+  .seg span { flex: 1 0 auto; text-align: center; padding: 9px 10px; border-radius: 10px; border: 1px solid var(--line); background: #fff; font-size: 13.5px; }
+  .seg span.sel { background: var(--navy); color: #fff; border-color: var(--navy); font-weight: 700; }
+  .btn { background: var(--navy); color: #fff; text-align: center; border-radius: 14px; padding: 15px; font-weight: 700; font-size: 15.5px; }
+  .btn.danger { background: #fff; color: #B42318; border: 1px solid #F3C4C0; }
+  .note { font-size: 11.5px; color: var(--sub); line-height: 1.5; display: flex; gap: 6px; }
+  .msgs { flex: 1; display: flex; flex-direction: column; gap: 10px; overflow: hidden; }
+  .me { align-self: flex-end; background: var(--navy); color: #fff; padding: 10px 13px; border-radius: 16px 16px 4px 16px; font-size: 14px; max-width: 78%; }
+  .bot { align-self: flex-start; background: #fff; border: 1px solid var(--line); padding: 13px; border-radius: 16px 16px 16px 4px; font-size: 14px; line-height: 1.55; max-width: 92%; display: flex; flex-direction: column; gap: 9px; }
+  .bot b.big { font-size: 22px; color: var(--navy); }
+  .applied { background: var(--tint); border-radius: 10px; padding: 8px 10px; font-size: 12px; color: var(--navy); }
+  .applied strong { display: block; font-size: 11px; color: var(--sub); margin-bottom: 4px; font-weight: 600; }
+  .grid4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 5px; }
+  .grid4 div { background: var(--bg); border-radius: 8px; padding: 6px 4px; text-align: center; font-size: 11px; color: var(--sub); }
+  .grid4 div b { display: block; font-size: 15px; color: var(--ink); }
+  .src { border-top: 1px dashed var(--line); padding-top: 8px; font-size: 11.5px; color: var(--sub); display: flex; flex-direction: column; gap: 3px; }
+  .src a { color: var(--navy2); text-decoration: none; font-weight: 600; }
+  .disclaimer { font-size: 11px; color: var(--sub); background: var(--bg); border-radius: 8px; padding: 6px 8px; }
+  .warn { background: var(--warnbg); border: 1px solid #F5D9A8; border-radius: 10px; padding: 9px 10px; font-size: 12.5px; color: #7A3E00; line-height: 1.5; }
+  .warn strong { color: var(--warn); display: block; margin-bottom: 3px; }
+  .ok { background: var(--okbg); border-radius: 10px; padding: 8px 10px; font-size: 12.5px; color: var(--ok); font-weight: 600; }
+  .hyp { background: var(--hypbg); border: 1px solid #DCCFFF; border-radius: 10px; padding: 8px 10px; font-size: 12px; color: var(--hyp); line-height: 1.5; }
+  .quick { display: flex; gap: 6px; flex-wrap: wrap; }
+  .quick span { font-size: 12.5px; padding: 7px 11px; border-radius: 999px; background: #fff; border: 1px solid var(--navy); color: var(--navy); font-weight: 600; }
+  .inputbar { background: #fff; border-top: 1px solid var(--line); padding: 10px 14px 26px; display: flex; gap: 8px; align-items: center; }
+  .inputbar .in { flex: 1; background: var(--bg); border-radius: 999px; padding: 11px 15px; font-size: 14px; color: #98A2B3; }
+  .inputbar .send { width: 40px; height: 40px; border-radius: 50%; background: var(--navy); color: #fff; display: grid; place-items: center; font-weight: 800; }
+  .ctx { background: #fff; border-bottom: 1px solid var(--line); padding: 8px 16px; display: flex; gap: 6px; align-items: center; font-size: 12px; color: var(--sub); }
+  .row { display: flex; justify-content: space-between; align-items: center; padding: 11px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+  .row:last-child { border-bottom: 0; }
+  .row .k { color: var(--sub); }
+  .row .v { font-weight: 600; }
+  .row .e { color: var(--navy2); font-size: 12.5px; font-weight: 600; margin-left: 8px; }
+  .sugg { display: flex; flex-direction: column; gap: 7px; }
+  .sugg div { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 11px 13px; font-size: 13.5px; display: flex; justify-content: space-between; }
+  .sugg div span:last-child { color: var(--sub); }
+  .tag { font-size: 10.5px; font-weight: 700; color: var(--warn); background: var(--warnbg); border-radius: 6px; padding: 2px 6px; margin-right: 6px; }
+  .tag.n { color: var(--navy); background: var(--tint); }
+  .cmp { width: 820px; height: 390px; background: var(--bg); padding: 26px; display: none; flex-direction: column; gap: 16px; }
+  .cmp.on { display: flex; }
+  .cmp h2 { font-size: 22px; color: var(--navy); font-weight: 800; }
+  .cmp .q { align-self: center; background: var(--navy); color: #fff; padding: 11px 20px; border-radius: 999px; font-size: 16px; font-weight: 600; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; flex: 1; }
+  .col { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 10px; font-size: 13.5px; line-height: 1.5; }
+  .col .who { font-size: 12px; color: var(--sub); font-weight: 600; }
+</style>
+</head>
+<body>
+
+<!-- 01 온보딩 -->
+<section class="screen" id="s1">
+  <div class="status"><span>9:41</span><span>●●● ▮</span></div>
+  <div class="top"><div class="logo">놓</div><h1>프로필 등록</h1><div class="sp"></div><span class="muted">3 / 4</span></div>
+  <div class="body">
+    <div class="progress"><i></i></div>
+    <div class="h2">한 번만 알려주세요.<br>질문할 때마다 기억할게요.</div>
+    <div><div class="label">입학년도</div><div class="field"><span class="v">2026학년도</span><span class="muted">▾</span></div></div>
+    <div><div class="label">캠퍼스</div><div class="seg"><span class="sel">서울</span><span>글로벌</span></div></div>
+    <div><div class="label">소속 대학 · 학과</div><div class="field"><span class="v">서양어대학 · 스페인어과</span><span class="muted">▾</span></div></div>
+    <div><div class="label">학적 상태</div><div class="seg"><span class="sel">신입학</span><span>편입</span><span class="sel">재학</span><span>휴학</span></div></div>
+    <div><div class="label">현재 이수학기</div><div class="field"><span class="v">2학기째 재학 중</span><span class="muted">▾</span></div></div>
+    <div><div class="label">전공 이수 유형</div><div class="seg"><span>이중전공</span><span>부전공</span><span>전공심화</span><span class="sel">아직 미정</span></div></div>
+    <div class="sp" style="flex:1"></div>
+    <div class="note"><span>🔒</span><span>학번·실명·성적은 받지 않아요. 프로필은 이 기기 브라우저에만 저장되며 언제든 삭제할 수 있어요.</span></div>
+    <div class="btn">다음</div>
+  </div>
+</section>
+
+<!-- 02 홈 -->
+<section class="screen" id="s2">
+  <div class="status"><span>9:41</span><span>●●● ▮</span></div>
+  <div class="top"><div class="logo">놓</div><h1>외대 놓침방지</h1><div class="sp"></div><div class="icon-btn">👤</div></div>
+  <div class="body">
+    <div class="card">
+      <div class="label">내 학사 프로필</div>
+      <div class="chipbar"><span class="chip">서울캠퍼스</span><span class="chip">2026학번</span><span class="chip">스페인어과</span><span class="chip">신입학 · 재학</span><span class="chip">2학기째</span><span class="chip out">이수 유형 미정</span></div>
+      <div class="muted" style="margin-top:8px">모든 답변에 이 정보가 자동으로 적용돼요.</div>
+    </div>
+    <div class="card" style="border-color:#F5D9A8;background:var(--warnbg)">
+      <div style="font-size:12px;font-weight:700;color:var(--warn)">내게 해당하는 일정 · D-18</div>
+      <div style="font-size:15px;font-weight:700;margin-top:3px">2026-2학기 이중전공 신청</div>
+      <div class="muted">11. 24.(화) 10시 ~ 11. 30.(월) 16시 · 2학년 진급 예정자 대상</div>
+    </div>
+    <div class="label" style="margin-top:4px">나에게 맞춘 추천 질문</div>
+    <div class="sugg">
+      <div><span><span class="tag">신청 임박</span>이중전공 신청은 어떻게 해?</span><span>›</span></div>
+      <div><span><span class="tag n">졸업</span>졸업하려면 총 몇 학점 필요해?</span><span>›</span></div>
+      <div><span><span class="tag n">전공</span>이중전공이랑 부전공 차이가 뭐야?</span><span>›</span></div>
+      <div><span><span class="tag n">학적</span>다음 학기에 휴학할 수 있어?</span><span>›</span></div>
+    </div>
+    <div class="sp" style="flex:1"></div>
+    <div class="note"><span>ⓘ</span><span>지원 영역: 졸업학점 · 이중전공/부전공 · 휴·복학. 입력한 정보 기반 안내이며 학교의 공식 판정과는 별개예요.</span></div>
+  </div>
+  <div class="inputbar"><div class="in">학사 관련 무엇이든 물어보세요</div><div class="send">↑</div></div>
+</section>
+
+<!-- 03 개인화 답변 -->
+<section class="screen" id="s3">
+  <div class="status"><span>9:41</span><span>●●● ▮</span></div>
+  <div class="top"><div class="icon-btn">‹</div><h1>졸업학점 문의</h1><div class="sp"></div><div class="icon-btn">👤</div></div>
+  <div class="ctx">적용 중 <span class="chip">서울 · 2026학번 · 비사범대</span></div>
+  <div class="body">
+    <div class="msgs">
+      <div class="me">졸업하려면 총 몇 학점 필요해?</div>
+      <div class="bot">
+        <div class="applied"><strong>적용한 내 조건</strong>서울캠퍼스 · 2025학년도 이후 입학 · 사범대학 외 · 이중전공 선택 시</div>
+        <div>이중전공으로 졸업하면 총 <b class="big">126학점</b>이 필요해요.</div>
+        <div class="grid4"><div><b>42</b>전공</div><div><b>42</b>이중전공</div><div><b>32</b>교양</div><div><b>6</b>기초</div></div>
+        <div class="muted">아직 이수 유형이 ‘미정’이라 이중전공 기준으로 안내했어요. 부전공이나 전공심화를 선택하면 영역별 기준이 달라져요.</div>
+        <div class="src"><span>근거 · <a>학사정보 「졸업이수학점」 2025학년도 이후 배분표 ↗</a></span><span>자료 확인일 2026. 11. 06.</span></div>
+        <div class="disclaimer">학점 외에 졸업논문/시험, 졸업인증·외국어인증도 필요해요. 실제 졸업 가능 여부는 학교의 졸업사정으로 확정돼요.</div>
+      </div>
+      <div class="quick"><span>부전공이면?</span><span>전공심화면?</span><span>외국어인증은?</span></div>
+    </div>
+  </div>
+  <div class="inputbar"><div class="in">이어서 질문하기</div><div class="send">↑</div></div>
+</section>
+
+<!-- 04 자료 충돌 -->
+<section class="screen" id="s4">
+  <div class="status"><span>9:41</span><span>●●● ▮</span></div>
+  <div class="top"><div class="icon-btn">‹</div><h1>이중전공 신청</h1><div class="sp"></div><div class="icon-btn">👤</div></div>
+  <div class="ctx">적용 중 <span class="chip">서울 · 2025학번 · 신입학 · 2학기째</span></div>
+  <div class="body">
+    <div class="msgs">
+      <div class="me">이중전공 신청 언제야? 우선배정은 몇 학점부터야?</div>
+      <div class="bot">
+        <div class="ok">✓ 이번 신청 대상이에요 (2026-2학기가 두 번째 학기인 재학생)</div>
+        <div><b>신청 기간</b><br>11. 24.(화) 10시 ~ 11. 30.(월) 16시<br><b>신청 경로</b><br>종합정보시스템 → 전공/교직관리 → 이중전공 신청</div>
+        <div class="warn"><strong>⚠ 공식 자료 간 기준이 달라요</strong>· 학사정보 「이중전공」: 34학점 (25학번 이후 32학점)<br>· 2026-2 신청 공고: 34학점<br>어느 기준이 적용되는지 확정할 수 없어 단정하지 않을게요. 기준 미달이어도 신청 자체는 가능하며 배정 순위만 달라져요.</div>
+        <div class="card" style="padding:10px;border-radius:10px"><div style="font-size:12px;color:var(--sub)">확인 문의</div><div style="font-weight:700;font-size:14px">서울 학사종합지원센터 · 02-2173-2130</div></div>
+        <div class="src"><span>근거 · <a>학사정보 「이중전공」 ↗</a> · <a>2026-2 이중전공 신청 공고 ↗</a></span><span>자료 확인일 2026. 11. 06.</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="inputbar"><div class="in">이어서 질문하기</div><div class="send">↑</div></div>
+</section>
+
+<!-- 05 추가 질문 + 가정 질문 -->
+<section class="screen" id="s5">
+  <div class="status"><span>9:41</span><span>●●● ▮</span></div>
+  <div class="top"><div class="icon-btn">‹</div><h1>휴학 · 가정 질문</h1><div class="sp"></div><div class="icon-btn">👤</div></div>
+  <div class="ctx">적용 중 <span class="chip">서울 · 2026학번 · 신입학 · 1학기째</span></div>
+  <div class="body">
+    <div class="msgs">
+      <div class="me">지금 휴학할 수 있어?</div>
+      <div class="bot">
+        <div class="applied"><strong>적용한 내 조건</strong>신입학 · 첫 학기 재학 중</div>
+        <div>신입생은 <b>첫 학기 중 일반휴학이 허가되지 않아요.</b> 다만 4주 이상 치료가 필요한 질병·입원은 예외가 있어요.</div>
+        <div style="font-size:13px;font-weight:600">혹시 질병·입원으로 인한 휴학인가요?</div>
+        <div class="quick"><span>예</span><span>아니요</span></div>
+        <div class="src"><span>근거 · <a>학사정보 「휴·복학」 ↗</a></span></div>
+      </div>
+      <div class="me">내 친구가 2024학번 2학년이면?</div>
+      <div class="bot">
+        <div class="hyp">🧪 <b>가정 질문</b> — 이번 답변만 ‘2024학번 · 재학 중’ 기준으로 답해요. 내 프로필은 그대로예요.</div>
+        <div>일반휴학은 <b>2월·8월 초 신청 기간</b>에 종합정보시스템에서 신청할 수 있어요. 1회 1년 원칙, 재학 중 통산 3년을 넘을 수 없어요.</div>
+        <div class="muted">다음 신청 기간: 2027-1학기 휴·복학 신청 2027. 2. 1. ~ 2. 5.</div>
+      </div>
+    </div>
+  </div>
+  <div class="inputbar"><div class="in">이어서 질문하기</div><div class="send">↑</div></div>
+</section>
+
+<!-- 06 프로필 관리 -->
+<section class="screen" id="s6">
+  <div class="status"><span>9:41</span><span>●●● ▮</span></div>
+  <div class="top"><div class="icon-btn">‹</div><h1>내 학사 프로필</h1></div>
+  <div class="body">
+    <div class="card" style="padding:4px 14px">
+      <div class="row"><span class="k">입학년도</span><span><span class="v">2026학년도</span><span class="e">수정</span></span></div>
+      <div class="row"><span class="k">캠퍼스</span><span><span class="v">서울</span><span class="e">수정</span></span></div>
+      <div class="row"><span class="k">대학 · 학과</span><span><span class="v">서양어대학 · 스페인어과</span><span class="e">수정</span></span></div>
+      <div class="row"><span class="k">학적 상태</span><span><span class="v">신입학 · 재학</span><span class="e">수정</span></span></div>
+      <div class="row"><span class="k">현재 이수학기</span><span><span class="v">2학기째</span><span class="e">수정</span></span></div>
+      <div class="row"><span class="k">전공 이수 유형</span><span><span class="v">미정</span><span class="e">수정</span></span></div>
+    </div>
+    <div class="card">
+      <div class="label">선택 입력 · 필요한 질문에서만 사용</div>
+      <div class="row" style="padding:6px 0"><span class="k">취득 학점</span><span class="muted">입력 안 함</span></div>
+    </div>
+    <div class="card">
+      <div class="label">내 정보는 이렇게 다뤄져요</div>
+      <div class="muted">· 저장 위치: 이 기기의 브라우저<br>· 답변 생성 시 질문과 필요한 항목만 AI(CLOVA Studio)로 전송<br>· 대화 기록은 서버에 남기지 않음</div>
+    </div>
+    <div class="sp" style="flex:1"></div>
+    <div class="btn danger">내 정보 삭제</div>
+  </div>
+</section>
+
+<!-- 07 비교 (발표용) -->
+<section class="cmp" id="s7">
+  <h2>같은 질문, 학생마다 다른 답</h2>
+  <div class="q">“졸업하려면 총 몇 학점 필요해?”</div>
+  <div class="cols">
+    <div class="col">
+      <div class="who">프로필 A</div>
+      <div class="chipbar"><span class="chip">서울</span><span class="chip">2026학번</span><span class="chip">비사범대</span><span class="chip">이중전공</span></div>
+      <div>2025학년도 이후 배분표 기준<br><b style="font-size:26px;color:var(--navy)">126학점</b></div>
+      <div class="muted">전공 42 · 이중전공 42 · 교양 32 · 기초 6</div>
+    </div>
+    <div class="col">
+      <div class="who">프로필 B</div>
+      <div class="chipbar"><span class="chip">서울</span><span class="chip">2024학번</span><span class="chip">사범대·AI융합대 외</span><span class="chip">이중전공</span></div>
+      <div>2015~2024학년도 배분표 기준<br><b style="font-size:26px;color:var(--navy)">134학점</b></div>
+      <div class="muted">전공 54 · 이중전공 42 · 교양 32</div>
+    </div>
+    <div class="col">
+      <div class="who">프로필 C</div>
+      <div class="chipbar"><span class="chip out">캠퍼스 미등록</span><span class="chip out">학과 미등록</span></div>
+      <div><b>추측하지 않고 되묻기</b></div>
+      <div class="muted">“캠퍼스와 소속 대학에 따라 126~150학점으로 달라져요. 어느 캠퍼스, 어느 대학 소속인가요?”</div>
+      <div class="quick"><span>서울</span><span>글로벌</span></div>
+    </div>
+  </div>
+</section>
+
+<script>
+  const id = new URLSearchParams(location.search).get("s") || "s1";
+  document.getElementById(id).classList.add("on");
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "08-morgen",
+    "category": "Personal calendar / profile",
+    "requestedUrl": "https://www.morgen.so/",
+    "error": "Error: Cannot capture a screenshot while the window is minimized."
+  },
+  {
+    "id": "09-motion",
+    "category": "Planning density",
+    "requestedUrl": "https://www.usemotion.com/",
+    "error": "Error: Cannot capture a screenshot while the window is minimized."
+  },
+  {
+    "id": "10-my-study-life",
+    "category": "Student planning",
+    "requestedUrl": "https://mystudylife.com/",
+    "error": "Error: Cannot capture a screenshot while the window is minimized."
+  },
+  {
+    "id": "11-shovel",
+    "category": "Student task breakdown",
+    "requestedUrl": "https://shovelapp.io/",
+    "error": "Error: Cannot capture a screenshot while the window is minimized."
+  },
+  {
+    "id": "12-stellic",
+    "category": "Academic planning / progress",
+    "requestedUrl": "https://www.stellic.com/",
+    "error": "Error: Cannot capture a screenshot while the window is minimized."
+  },
+  {
+    "id": "13-pathify",
+    "category": "University portal",
+    "requestedUrl": "https://pathify.com/",
+    "error": "Error: Cannot capture a screenshot while the window is minimized."
+  },
+  {
+    "id": "14-ellucian",
+    "category": "Campus experience",
+    "requestedUrl": "https://www.ellucian.com/solutions/ellucian-experience",
+    "error": "Error: Cannot capture a screenshot while the window is minimized."
+  }
+]

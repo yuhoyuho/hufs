@@ -1,0 +1,57 @@
+[
+  {
+    "id": "02-home",
+    "title": "기본 네이비 홈",
+    "source": "C:\\Users\\hiq\\.codex\\generated_images\\01a1ae2c-8f2c-7652-b5bb-5d40f0b11154\\exec-778b9174-a742-4c81-898a-10c4c89c85c7.png"
+  },
+  {
+    "id": "10-alternative-warm",
+    "title": "따뜻한 스타일 대안",
+    "source": "C:\\Users\\hiq\\.codex\\generated_images\\01a1ae2c-8f2c-7652-b5bb-5d40f0b11154\\exec-5c0ec8c9-9cfd-4e1d-964e-052567ad04d3.png"
+  },
+  {
+    "id": "11-alternative-dark",
+    "title": "다크 스타일 대안",
+    "source": "C:\\Users\\hiq\\.codex\\generated_images\\01a1ae2c-8f2c-7652-b5bb-5d40f0b11154\\exec-35dba14b-c571-4eca-972f-c2a1851a92c9.png"
+  },
+  {
+    "id": "01-onboarding",
+    "title": "최초 프로필 등록",
+    "source": "C:\\Users\\hiq\\.codex\\generated_images\\01a1ae2c-8f2c-7652-b5bb-5d40f0b11154\\exec-5d39684a-9f4c-44b0-9cc3-ccd441dfec42.png"
+  },
+  {
+    "id": "03-personalized-answer",
+    "title": "개인화 답변과 출처",
+    "source": "C:\\Users\\hiq\\.codex\\generated_images\\01a1ae2c-8f2c-7652-b5bb-5d40f0b11154\\exec-50e2b30d-e938-4f44-aa44-0601b9cd8580.png"
+  },
+  {
+    "id": "04-conflicting-sources",
+    "title": "공식 자료 충돌 안내",
+    "source": "C:\\Users\\hiq\\.codex\\generated_images\\01a1ae2c-8f2c-7652-b5bb-5d40f0b11154\\exec-922a7679-2bd8-46c5-bf9e-1495ea50edda.png"
+  },
+  {
+    "id": "06-profile-settings",
+    "title": "학사 프로필 수정과 삭제",
+    "source": "C:\\Users\\hiq\\.codex\\generated_images\\01a1ae2c-8f2c-7652-b5bb-5d40f0b11154\\exec-f9a8ed82-2408-4421-9b42-fbd6b0f5514d.png"
+  },
+  {
+    "id": "07-profile-comparison",
+    "title": "프로필별 답변 비교 시연",
+    "source": "C:\\Users\\hiq\\.codex\\generated_images\\01a1ae2c-8f2c-7652-b5bb-5d40f0b11154\\exec-76b51608-5f1f-4fae-a88e-7b04f4d3e67d.png"
+  },
+  {
+    "id": "05-followup-hypothetical",
+    "title": "추가 질문과 가정 조건 분리",
+    "source": "C:\\Users\\hiq\\.codex\\generated_images\\01a1ae2c-8f2c-7652-b5bb-5d40f0b11154\\exec-4629e2c8-5ce2-418d-9c98-2e4e65c9b221.png"
+  },
+  {
+    "id": "08-mobile-home",
+    "title": "모바일 홈",
+    "source": "C:\\Users\\hiq\\.codex\\generated_images\\01a1ae2c-8f2c-7652-b5bb-5d40f0b11154\\exec-5eff480a-528b-4a84-b259-3c59493b30b4.png"
+  },
+  {
+    "id": "09-mobile-answer",
+    "title": "모바일 개인화 답변",
+    "source": "C:\\Users\\hiq\\.codex\\generated_images\\01a1ae2c-8f2c-7652-b5bb-5d40f0b11154\\exec-af710b2b-b6eb-435a-9ae6-d23eae35b2a9.png"
+  }
+]

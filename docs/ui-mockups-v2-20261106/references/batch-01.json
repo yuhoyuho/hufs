@@ -1,0 +1,103 @@
+[
+  {
+    "id": "01-perplexity",
+    "category": "AI search / evidence",
+    "requestedUrl": "https://www.perplexity.ai/",
+    "title": "Perplexity",
+    "url": "https://www.perplexity.ai/",
+    "headings": [
+      "무엇을 알고 싶으세요?\n무엇을 작업할까요?\n무엇을 알고 싶으세요?"
+    ],
+    "text": "신규\n⌃I\nComputer\n자동화\n아티팩트\n플러그인\n프로젝트\n프로젝트 없음\n최근 항목\n최근 세션 없음\n요금제 보기\n로그인\n무엇을 알고 싶으세요?\n무엇을 작업할까요?\n무엇을 알고 싶으세요?\n\n\n\n\n무엇이든 물어보세요…\n검색\nComputer\n모델\n무엇이든 검색하세요\n가장 신뢰할 수 있는 출처에서 빠르고 정확한 답변을 얻으세요.\nComputer로 업무를 완료하세요\n신규\n프로젝트를 맡기면 언제든지 완성도 높고 신뢰할 수 있는 결과물을 받아볼 수 있습니다.\nPerplexity AI, Inc.\nAravind Srinivas (CEO)\n2261 Market Street, Ste. 14441, San Francisco, CA 94114\n+1(510) 270-0840\nsupport@perplexity.ai\nAmazon Web Services에서 호스팅\n제공자, 계약 및 취소 정보\n서비스 약관\n개인정보 처리방침\n사업자 등록번호: 455-80-03418\n통신판매업 신고번호: 2026-공정-0023",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/01-perplexity.png"
+  },
+  {
+    "id": "02-claude",
+    "category": "Conversational workspace",
+    "requestedUrl": "https://claude.ai/",
+    "title": "로그인 - Claude",
+    "url": "https://claude.ai/login",
+    "headings": [],
+    "text": "쿠키 설정\n\n당사는 서비스 제공 및 개선, 사이트 사용 분석을 위해 쿠키를 사용하며, 동의하시는 경우 맞춤형 서비스 제공 및 마케팅에도 활용합니다. 쿠키 정책은 여기에서 확인하실 수 있습니다.\n\n쿠키 설정 사용자 지정\n모든 쿠키 거부\n모든 쿠키 허용",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/02-claude.png"
+  },
+  {
+    "id": "03-gemini",
+    "category": "Conversational entry",
+    "requestedUrl": "https://gemini.google.com/",
+    "title": "Google Gemini",
+    "url": "https://gemini.google.com/app",
+    "headings": [
+      "안녕하세요. 저는 Gemini입니다. 무엇을 도와드릴까요?"
+    ],
+    "text": "새 채팅\n이미지\n활동을 저장하려면 로그인하세요.\n설정\n로그인\n앱 다운로드\n안녕하세요. 저는 Gemini입니다. 무엇을 도와드릴까요?\n\n\n\n\nGemini 정보\n구독\n비즈니스용\n앱 다운로드\n로그인",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/03-gemini.png"
+  },
+  {
+    "id": "04-linear",
+    "category": "Dense navigation / hierarchy",
+    "requestedUrl": "https://linear.app/",
+    "title": "Linear – The system for product development",
+    "url": "https://linear.app/",
+    "headings": [
+      "The product development\nsystem for teams and agents\nThe product development system for teams and agents",
+      "A new species of product tool. Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products.",
+      "Intake\nand integrations",
+      "Planning\nand monitoring",
+      "AI and\nautomations",
+      "Build, review,\nand ship",
+      "Changelog",
+      "Built for the future. Available today."
+    ],
+    "text": "Skip to content →\nProduct\nResources\nCustomers\nPricing\nNow\nContact\nLog in\nSign up\nThe product development\nsystem for teams and agents\nThe product development system for teams and agents\n\nPurpose-built for planning and building products. Designed for the AI era.\n\nNew\nLoops →\nLinear\nPulse\nInbox\nMy issues\nReviews\nWorkspace\nInitiatives\nProjects\nMore\nFavorites\nFaster app launch\nAgent tasks\nAgent Insights\nUI Refresh\nDRV-8852\nFaster app launch\n1 / 84\nFaster app launch\n\nRender UI before vehicle_state sync when minimum required state is present, instead of blocking on full refresh during iOS startup.\n\nActivity\nLinear created the issue via Slack on behalf of Karri\n·\n2min ago\nTriage Intelligence added the labels Performance and iOS\n·\n2min ago\nkarri\n·\n4 min ago\nRight now we show a spinner forever, which makes it look like the car disappeared...\njori\n·\njust now\n@Linear can you take a stab at this?\nLinear\nconnected by Jori\n·\n2 min ago\nChanged 2 files\nDraft PR awaiting your review\n·\n2 min ago\nLinear moved from Todo to In Progress\n·\njust now\nReviews\nRevert\nProperties\nIn Progress\nMedium\nKarri\nLinear\nCycle 144\nLabels\nPerformance\niOS\nReleases\nLinear App\n1.6881...\n⋅\nJun 25\n\nPOWERING THE COMPANIES BUILDING THE FUTURE\n\nA new species of product tool. Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products.\nFIG 0.1\nPurpose-built\n\nLinear is shaped by the practices and principles of world-class product teams.\n\nFIG 0.2\nPowered by agents\n\nDesigned for workflows shared by humans and agents. From drafting PRDs to pushing PRs.\n\nFIG 0.3\nDesigned for speed\n\nReduces noise and restores momentum to help teams ship with high velocity and focus.\n\nIntake\nand integrations\n\nAutomatically turn conversations and customer feedback into actionable ",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/04-linear.png"
+  },
+  {
+    "id": "05-notion-calendar",
+    "category": "Time / contextual cards",
+    "requestedUrl": "https://www.notion.com/product/calendar",
+    "title": "Notion 캘린더",
+    "url": "https://www.notion.com/ko/product/calendar",
+    "headings": [
+      "완전히 새로운 캘린더",
+      "시간 관리, 더욱 쉽고 간편하게.",
+      "모든 일정을 한눈에 확인하기",
+      "일정 잡기 기능",
+      "다양한 시간대 설정",
+      "직관적인 디자인",
+      "12개 언어 지원",
+      "Notion 워크스페이스 연결로\n더 편리하게"
+    ],
+    "text": "제품\n리소스\n대기업\n가격\n영업팀 문의하기\n로그인\nNotion 캘린더 무료로 사용하기\nNotion 캘린더\n완전히 새로운 캘린더\n모든 일정을 한곳에서 관리하세요. 세련된 디자인에 완벽한 통합까지. 업무와 개인 일정을 한번에 관리할 수 있는 Notion 캘린더입니다.\nNotion 캘린더 무료 다운로드\nWindows용 다운로드하기\n재생\n시간 관리, 더욱 쉽고 간편하게.\n모든 일정을 한눈에 확인하기\n\n메뉴 모음에서 바로 회의에 참여할 수 있어 중요한 업무에 계속 집중할 수 있어요.\n\n일정 잡기 기능\n\n다른 사람들이 나와의 회의나 약속을 잡을 수 있도록 가능 시간과 일정 링크를 보내세요. 다른 앱은 필요 없어요. Notion에서 다 가능하거든요!\n\n다양한 시간대 설정\n\n다양한 시간대를 시각적으로 확인해 글로벌 팀과 효율적으로 협업하세요.\n\n직관적인 디자인\n\n효율적인 워크플로를 위해 명령어와 단축키를 사용하세요.\n\n12개 언어 지원\n\n현재 한국어, 영어, 일본어, 프랑스어, 독일어, 스페인어, 포르투갈어, 덴마크어, 네덜란드어, 핀란드어, 노르웨이어, 스웨덴어를 지원합니다. 지원 언어는 계속 늘어날 예정입니다.\n\nNotion 워크스페이스 연결로\n더 편리하게\n업무와 일정을 하나로 관리하세요\n\n캘린더 이벤트와 함께 마감일과 프로젝트 타임라인을 확인하고 우선순위에 따라 업무를 진행하세요.\n\nNotion 문서 연결하고 생성하기\n\nNotion에 저장된 일정을 캘린더에 연동하면 나의 스케줄을 한눈에 파악할 수 있어요.\n\n프로젝트 타임라인 업데이트\n\n드래그 & 드롭만 하면 캘린더를 나가지 않고도 Notion 데이터베이스 항목을 편집할 수 있습니다.\n\n모든 순간을 위한 편리한 시간 관리\n모든 일정을 한곳에서 확인하기\n\n업무와 개인 일정을 조화롭게 관리하세요.\n\n여러 개의 캘린더 연동하기\n\n업무와 개인 일정을 쉽고 빠르게 동기화하세요.\n\n일정이 겹치는 스케줄 사고 방지\n\n모든 캘린더에서 겹치는 시간대를 자동으로 차단합니다.\n\n사용이 쉬운 모바일 앱\n\niOS와 Android 위젯으로 일정을 한 눈에 확인하고 손쉽게 이벤트를 추가하세요.\n\n자주 사용하는 툴 연결\nNotion\n\n여러 워크스페이스에 저장된 중요한 일정을 하나의 캘린더로 불러오세요.\n\nGoogle 캘린더\n\nNotion 워크스페이스에 Google 캘린더를 연동하세요.\n\nGoogle Meet\n\nGoogle 캘린더와 함께 자동으로 연동됩니다.\n\nZoom\n\n새로운 Zoom 회의를 Notion 캘린더에서 바로 생성해 보세요.\n\nApple 캘린더\n\nNotion에서 바로 Apple 캘린더 일정을 생성할 수 있습니다.\n\n기타 회의 서비스\n\n다른 인기 회의 서비스의 맞춤 링크를 추가할 수 있습니다.\n\n무료로 다운로드하세요\n일과 삶의 조화를 위한 더 나은 캘린더가 기다립니다\nNotion 캘린더 무료 다운로드→\n데스크톱 앱\nmacOS\nWindows\n모바일 앱\nApple App Store\nGoogle Play\n자주 묻는 질문(FAQ)\n\nNotion 캘린더는 어떤 캘린더 서비스와 연동되나요?\n\n모바일 기기에서 Notion 캘린더를 사용할 수 있나요?\n\nNotion 캘린더에서 Google 캘린더를 볼 수 있나요?\n\n우리는 도구를 만들고,\n그 후에는 도구가 우리를 만듭니다.\nMarshall McLuhan\n제품\n기능\n새로운 소식\nNotion AI\n가격\n영업팀 문의하기\n다운로드\n더 살펴보기→\n리소스\n고객 스토리\n연결\n마켓플레이스\n도움말 센터\n아카데미\n커뮤니티\n회사 소개\nNotion 소개\n채용\n보안\n서비스 상태\n이용약관 및 개인정보 보호정책\n개인정보 보호 권한\n용도별\n회사\n소규모 비즈니스\n스타트업\n개발자\n한국어\n쿠키 설정\n\n© 2026 Notion Labs, Inc",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/05-notion-calendar.png"
+  },
+  {
+    "id": "06-sunsama",
+    "category": "Calm planning",
+    "requestedUrl": "https://www.sunsama.com/",
+    "title": "Sunsama - Make work-life balance a reality.",
+    "url": "https://www.sunsama.com/",
+    "headings": [],
+    "text": "We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience, personalize content, customize advertisements, and analyze website traffic. For these reasons, we may share your site usage data with our social media, advertising, and analytics partners. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy. You can change your cookie settings at any time by clicking “Preferences.”\nPreferences\nAccept\nFeatures\nIntegrations\nPricing\nLove\nAbout\nBlog\nLogin\n\nStart for Free\nNamed Best\nScheduling Tool by\nStart Calm.\nStay Focused.\nEnd Confident.\nThe only task manager, calendar, and daily planner for modern professionals. Eliminate distractions, find flow, and do more high-impact work without burning out. The digital daily planner that helps you feel calm and stay focused.\nTry for free\n14-day free trial\nNo credit card required\nTrusted by professionals who want\nto do their best work every day.\nWork is\nf***ing chaotic\nAlways on, working late, never done\nConstantly interrupted and losing focus\nStruggling to manage tasks and meetings\nSunsama turns\nchaos into clarity‍\nEnd the day on time, feeling accomplished\nBlock focus time and actually protect it\nSee tasks and meetings together in one clear plan\nI use Sunsama to track everything and ensure important tasks get done.\nGeoff Ralston\nPresident, YC\nSunsama is the productivity app I've been searching for my whole life. Actually, I lied. It's better.\nHenry Ault\nFounder @ Eco\nThe tool that has had the greatest impact on my life and my productivity is unquestionably Sunsama. These guys deserve a Nobel prize.\nPaul Galatis\nCEO @ Names and Faces\nFeatures\nSunsama is purpose-built to help modern professionals do great work, without burning o",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/06-sunsama.png"
+  },
+  {
+    "id": "07-akiflow",
+    "category": "Actions / productivity",
+    "requestedUrl": "https://www.akiflow.com/",
+    "title": "Akiflow | Time-Blocking Digital Planner & Calendar",
+    "url": "https://akiflow.com/",
+    "headings": [
+      "One app for tasks & calendars",
+      "powered by AI",
+      "Save hours every week with your calendars, tasks, and assistant. All in one place. Built for founders, operators, and obsessed doers.",
+      "The All-in-One Productivity Suite",
+      "Calendar, tasks, inbox, and AI into one seamless flow. With you in control.",
+      "Your Always-On AI Sidekick",
+      "Capture tasks at the speed of thoughts",
+      "A Productivity Tool Box"
+    ],
+    "text": "Why Akiflow?\n\nAkiflow For\n\nResources\n\nPricing\n\nLog in\nTry for free\nOne app for tasks & calendars\npowered by AI\nSave hours every week with your calendars, tasks, and assistant. All in one place. Built for founders, operators, and obsessed doers.\nTry Akiflow for free\n\nYou have\n\n1h slot at 8 AM.\n\nShall I block it?\n\nDo I have time to review the roadmap tomorrow?\n\nAki\n\nAsk me anything\n\nDesigned in Italy\n\nBacked by\n\nY Combinator\n\nTrusted by ambitious professionals and teams worldwide\n\nTry Akiflow for free\n\n7 days free. Cancel anytime.\n\nThe All-in-One Productivity Suite\nCalendar, tasks, inbox, and AI into one seamless flow. With you in control.\nOne calendar that syncs\nWork & Life\n\nMon\n\n6\n\nTue\n\n7\n\nWork event\n\n08:00 - 09:00\n\nPersonal event\n\n08:30 - 09:30\n\n08:00\n\n08:30\n\n09:00\n\n09:30\n\n10:00\n\n10:30\n\nTask Manager for\nMindful Planning\nSomeday\nThis month\nThis week\n\nReview all contents\n\nPersonal\n\nUniversal Inbox & Integrations\n\nInbox\n\nImprove website impact\n\nPersonal\n\nReview all contents\n\nPersonal\n\nDeploy new release\n\nPersonal\n\nOn-Demand\nExecutive AI Assistant\nMoving check-in to Tomorrow\nToday's Agenda\n\nApple Watch\n\niCloud Calendar\n\nTry Akiflow for free\n\n7 days free. Cancel anytime.\n\nThe calendar that works as hard as you do\n\nEvery meeting, every task all in one place.\nTime-block your day\nautomatically\nWork & Personal\nin perfect sync\nSchedules for you.\nIn one click.\nTeam scheduling\non autopilot\n\nReview documents\n\n30m\n\n☕️ Breakfast\n\n08:00 - 08:30\n\nTry Akiflow for free\n\n7 days free. Cancel anytime.\n\nPlans that actually get done\n\nTurn your tasks into a clear Plan\nBlock time\nfor what matters most\nSmart Time Slots\nthat work around you\nPlan your\nday, week, automatically\nStay goal‑aligned\nwith AI nudges\nTry Akiflow for free\n\n7 days free. Cancel anytime.\n\nThe Universal Inbox\n\nAll your work, ca",
+    "screenshot": "C:/Users/hiq/orca/workspaces/hufs/sardine/docs/ui-mockups-v2-20261106/references/07-akiflow.png"
+  }
+]

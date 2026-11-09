@@ -1,0 +1,6 @@
+.vercel
+.git
+.env*
+generation-manifest.json
+references/batch-*.json
+references/references.json

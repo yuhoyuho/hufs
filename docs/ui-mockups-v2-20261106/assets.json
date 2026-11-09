@@ -1,0 +1,79 @@
+[
+  {
+    "id": "01-onboarding",
+    "title": "최초 프로필 등록",
+    "width": 1586,
+    "height": 992,
+    "file": "01-onboarding.png"
+  },
+  {
+    "id": "02-home",
+    "title": "기본 네이비 홈",
+    "width": 1586,
+    "height": 992,
+    "file": "02-home.png"
+  },
+  {
+    "id": "03-personalized-answer",
+    "title": "개인화 답변과 출처",
+    "width": 1586,
+    "height": 992,
+    "file": "03-personalized-answer.png"
+  },
+  {
+    "id": "04-conflicting-sources",
+    "title": "공식 자료 충돌 안내",
+    "width": 1585,
+    "height": 992,
+    "file": "04-conflicting-sources.png"
+  },
+  {
+    "id": "05-followup-hypothetical",
+    "title": "추가 질문과 가정 조건 분리",
+    "width": 1586,
+    "height": 992,
+    "file": "05-followup-hypothetical.png"
+  },
+  {
+    "id": "06-profile-settings",
+    "title": "학사 프로필 수정과 삭제",
+    "width": 1586,
+    "height": 992,
+    "file": "06-profile-settings.png"
+  },
+  {
+    "id": "07-profile-comparison",
+    "title": "프로필별 답변 비교 시연",
+    "width": 1586,
+    "height": 992,
+    "file": "07-profile-comparison.png"
+  },
+  {
+    "id": "08-mobile-home",
+    "title": "모바일 홈",
+    "width": 864,
+    "height": 1821,
+    "file": "08-mobile-home.png"
+  },
+  {
+    "id": "09-mobile-answer",
+    "title": "모바일 개인화 답변",
+    "width": 864,
+    "height": 1821,
+    "file": "09-mobile-answer.png"
+  },
+  {
+    "id": "10-alternative-warm",
+    "title": "따뜻한 스타일 대안",
+    "width": 1717,
+    "height": 916,
+    "file": "10-alternative-warm.png"
+  },
+  {
+    "id": "11-alternative-dark",
+    "title": "다크 스타일 대안",
+    "width": 1717,
+    "height": 916,
+    "file": "11-alternative-dark.png"
+  }
+]

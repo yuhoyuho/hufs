@@ -1,0 +1,48 @@
+{
+  "checkedOn": "2026-11-09",
+  "method": "ego-browser: official public sites and official support / App Store assets",
+  "references": [
+    {
+      "title": "Apple Finder · macOS Sequoia 15",
+      "pageUrl": "https://support.apple.com/ko-kr/guide/mac-help/mchlp2605/15.0/mac/15.0",
+      "imageUrl": "https://help.apple.com/assets/67D1B1065D0706C4AD080C54/67D1B10E5D0706C4AD080C79/ko_KR/14b4af93cacb84f993f7ba840df0a5c1.png",
+      "localImage": "finder-sequoia.png",
+      "dimensions": [931, 708],
+      "use": "Main neutral palette, sidebar, compact toolbar and selected row"
+    },
+    {
+      "title": "Apple · Use network locations on Mac",
+      "pageUrl": "https://support.apple.com/en-us/105129",
+      "supportingPageUrl": "https://support.apple.com/ko-kr/guide/mac-help/mchlp2291/mac",
+      "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/macos/big-sur/macos-big-sur-system-prefs-network-location-menu.jpg",
+      "localImage": "network-status.jpg",
+      "dimensions": [1200, 1036],
+      "use": "Green, yellow and red dots in an earlier macOS Network preferences screenshot"
+    },
+    {
+      "title": "Panic Nova",
+      "pageUrl": "https://nova.app/",
+      "imageUrl": "https://nova.app/images/en/hero-14.avif",
+      "localImage": "nova-hero.avif",
+      "dimensions": [2598, 1550],
+      "pngBrowserView": "nova-view.png",
+      "use": "Straight separators and adjoining rectangular panes; theme color excluded"
+    },
+    {
+      "title": "Things for Mac",
+      "pageUrl": "https://culturedcode.com/things/",
+      "macPageRedirectedTo": "https://apps.apple.com/us/app/things-3/id904280696?mt=12",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/98/87/d89887d8-e25f-5be8-322a-2a8b33772922/Mac_-_1.png/643x402bb.webp",
+      "localImage": "things-mac.webp",
+      "dimensions": [643, 402],
+      "use": "Text hierarchy, concise headings and lists; rounded window shape excluded"
+    }
+  ],
+  "validation": {
+    "allBoardImagesLoaded": true,
+    "sidebarDemoSelectionAndDotColorChecked": true,
+    "mobileViewportWidth": 390,
+    "mobileDocumentWidth": 390
+  },
+  "limitations": "Public web references only; native Mac apps were not installed or tested. Proposed dimensions, colors and selection semantics are project recommendations, not measurements of source apps."
+}
